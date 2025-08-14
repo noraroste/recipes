@@ -5,11 +5,11 @@ categories: [Recipes, texmex]
 tags: [taco, texmex, summer, fresh]     # TAG names should always be lowercase
 toc: false
 image:
- path: ../assets/lib/beandillas.jpeg
+ path: /assets/lib/beandillas.jpeg
 ---
 Bønnedillas
 
-![Bønnedillas](../assets/lib/beandillas.jpeg)
+![Bønnedillas](/assets/lib/beandillas.jpeg)
 
 Her er middag til to personer 
 

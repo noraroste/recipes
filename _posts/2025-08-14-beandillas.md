@@ -6,8 +6,11 @@ tags: [taco, texmex, summer, fresh]     # TAG names should always be lowercase
 toc: false
 image:
  path: /assets/lib/beandillas.jpeg
+ 
 ---
 Bønnedillas
+
+Oppskrift av Emilie Nereng [Link to recipe](https://www.instagram.com/emilienutrition/p/BzOhfvKpUuE/)
 
 ![Bønnedillas](/assets/lib/beandillas.jpeg)
 

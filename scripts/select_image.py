@@ -4,7 +4,7 @@ def check_image_attributes(img):
     return None, False
   img_class = ' '.join(img.get('class', []))
   if any(size in img_class.lower() for size in ['thumb', 'icon', 'small']):
-    print(f"Image {src} appears to be a thumbnail: {img_class}")
+    # print(f"Image {src} appears to be a thumbnail: {img_class}")
     return None, False
     # Make URL absolute if needed
   if not src.startswith(('http://', 'https://')):
@@ -15,17 +15,17 @@ def check_image_attributes(img):
   img_class = ' '.join(img.get('class', [])).lower()
 
   # Print debug info
-  print(f"Checking image - src: {img_src}")
-  print(f"alt: {img_alt}")
-  print(f"class: {img_class}")
+  # print(f"Checking image - src: {img_src}")
+  # print(f"alt: {img_alt}")
+  # print(f"class: {img_class}")
   # Check for logo indicators in URL/filename, alt text, or class
   logo_indicators = ['logo', 'avatar', 'icon', 'logos', 'banner', 'header', 'footer', 'sponsor', 'menu', 'profile', 'search', 'close-mob', 'loading']
   if any(indicator in img_src or indicator in img_alt or indicator in img_class
          for indicator in logo_indicators):
-    print(f"Image {src} appears to be a logo or avatar")
+    # print(f"Image {src} appears to be a logo or avatar")
     return None, False
 
-  print(f"Image {img} is returned as a candidate")
+  # print(f"Image {img} is returned as a candidate")
   return img,True
 
 
@@ -41,7 +41,7 @@ def check_rendered_image_size(img):
     if width_match and height_match:
       width = int(width_match.group(1))
       height = int(height_match.group(1))
-      print(f"Image {src} has CSS dimensions: {width}x{height}")
+      # print(f"Image {src} has CSS dimensions: {width}x{height}")
       if width > 100 and height > 100:
         return src, True
 
@@ -55,16 +55,16 @@ def check_rendered_image_size(img):
       if not (str(width).endswith('%') or str(height).endswith('%')):
         width = int(width) if str(width).isdigit() else 0
         height = int(height) if str(height).isdigit() else 0
-        print(f"Image {src} has HTML dimensions: {width}x{height}")
+        # print(f"Image {src} has HTML dimensions: {width}x{height}")
         if width > 100 and height > 100:
           return src, True
         else:
-          print(f"Image {src} is too small: {width}x{height}")
+          # print(f"Image {src} is too small: {width}x{height}")
           return None, False
     except ValueError:
-      print(f"Invalid dimensions for image {src}: width={width}, height={height}")
+      # print(f"Invalid dimensions for image {src}: width={width}, height={height}")
       return None, False
-  print(f"Image {src} does not have valid dimensions")
+  # print(f"Image {src} does not have valid dimensions")
   return src, True
 
 
@@ -78,7 +78,7 @@ def find_first_image(soup, url):
   for img in images:
     src, is_accepted = check_image_attributes(img)
     if not src or not is_accepted:
-      print(f"Skipping image {src} due to attributes")
+      # print(f"Skipping image {src} due to attributes")
       continue
     if is_accepted and src:
       accepted_images.append(src)

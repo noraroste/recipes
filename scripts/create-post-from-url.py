@@ -1,5 +1,5 @@
 from datetime import date
-from unicodedata import category
+import argparse
 
 from scrape_content import scrape_meta_content
 
@@ -20,24 +20,37 @@ def clean_title(title):
 
   return title
 
-# Define the URL of the website to scrape
-url = "https://lindastuhaug.no/alt-ett-krema-kyllinggryte-med-quinoa"
-categories = "[Recipes, Stew]"
-tags = "[quick, creamy, all-in-one]"
+def main():
+  # Create argument parser
+  parser = argparse.ArgumentParser(description='Create a blog post from a URL')
+  parser.add_argument('url', help='URL of the website to scrape')
+  parser.add_argument('--categories', default='[Recipes]', help='Categories in format "[Cat1, Cat2]"')
+  parser.add_argument('--tags', default='[]', help='Tags in format "[tag1, tag2]"')
+  parser.add_argument('--output-path', default='../_posts/', help='Path to save the markdown file')
 
-site_title, recipe_description, image_first = scrape_meta_content(url)
+  # Parse arguments
+  args = parser.parse_args()
 
-cleaned_title = clean_title(site_title)
-today = date.today()
-formatted_date = today.strftime("%Y-%m-%d")
-file_name = formatted_date + "-" + cleaned_title.replace(" ", "-") + ".md"
-print(f"File name: {file_name}")
-print(f"Title: {cleaned_title}")
-print(f"Description: {recipe_description}")
-print(f"Image URL: {image_first}")
+  # Use the parsed values
+  url = args.url
+  categories = args.categories
+  tags = args.tags
+  path = args.output_path
 
-# Create the markdown content
-markdown_content = f"""---
+  site_title, recipe_description, image_first = scrape_meta_content(url)
+
+  cleaned_title = clean_title(site_title)
+  today = date.today()
+  formatted_date = today.strftime("%Y-%m-%d")
+  file_name = formatted_date + "-" + cleaned_title.replace(" ", "-") + ".md"
+  print(f"File name: {file_name}")
+  print(f"Title: {cleaned_title}")
+  print(f"Description: {recipe_description}")
+  print(f"Image URL: {image_first}")
+
+  # Create the markdown content
+  markdown_content = \
+    f"""---
 title: {cleaned_title}
 date: {formatted_date}
 categories: {categories}
@@ -46,14 +59,19 @@ toc: false
 image:
   path: {image_first}
 ---
-# {cleaned_title}
-{recipe_description}
 
-[Link to recipe]({url})
+  # {cleaned_title}
 
-"""
-path = "../_posts/"
-# Write the markdown content to a file
-with open(path + file_name, 'w', encoding='utf-8') as file:
-    file.write(markdown_content)
+  {recipe_description}
 
+  [Link to recipe]({url})
+
+  """
+  path = "../_posts/"
+  # Write the markdown content to a file
+  with open(path + file_name, 'w', encoding='utf-8') as file:
+      file.write(markdown_content)
+
+
+if __name__ == "__main__":
+  main()

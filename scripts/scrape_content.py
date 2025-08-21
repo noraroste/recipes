@@ -8,9 +8,16 @@ from select_image import find_first_image
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def scrape_meta_content(url):
+  # Add browser-like headers
+  headers = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.9',
+    'Referer': 'https://www.google.com/'
+  }
   try:
     # Send an HTTP GET request to the URL
-    response = requests.get(url, verify=False)
+    response = requests.get(url, headers=headers, verify=False)
     response.raise_for_status() # Raise an exception for HTTP errors (4xx or 5xx)
 
     # Parse the HTML content using BeautifulSoup

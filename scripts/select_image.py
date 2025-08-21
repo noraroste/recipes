@@ -25,13 +25,6 @@ def check_image_attributes(img):
     print(f"Image {src} appears to be a logo or avatar")
     return None, False
 
-  # Look for size indicators in class names
-  if any(size in img_class.lower() for size in ['large', 'big', 'full', 'featured']):
-    print(f"Image {src} has size-indicating class: {img_class}")
-    return img, True
-    # Make URL absolute if needed
-    if not src.startswith(('http://', 'https://')):
-      return None, False
   print(f"Image {img} is returned as a candidate")
   return img,True
 

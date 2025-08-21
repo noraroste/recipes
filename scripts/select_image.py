@@ -19,7 +19,7 @@ def check_image_attributes(img):
   print(f"alt: {img_alt}")
   print(f"class: {img_class}")
   # Check for logo indicators in URL/filename, alt text, or class
-  logo_indicators = ['logo', 'avatar', 'icon', 'logos', 'banner', 'header', 'footer', 'sponsor']
+  logo_indicators = ['logo', 'avatar', 'icon', 'logos', 'banner', 'header', 'footer', 'sponsor', 'menu', 'profile', 'search', 'close-mob', 'loading']
   if any(indicator in img_src or indicator in img_alt or indicator in img_class
          for indicator in logo_indicators):
     print(f"Image {src} appears to be a logo or avatar")

@@ -2,6 +2,7 @@ from datetime import date
 from scrape_content import scrape_meta_content
 
 
+# TODO: Fjerne æøå fra tittel
 # Define the URL of the website to scrape
 url = "https://vegetarentusiast.no/fiestaform"
 site_title, recipe_description, image_first = scrape_meta_content(url)

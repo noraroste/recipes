@@ -35,6 +35,7 @@ jobs:
         run: |
           source ./scripts/venv/bin/activate
           input_file=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }})
+          echo $input_file
           python ./scripts/create-post-from-url.py --input-file $input_file --output-path ./_posts/
 
       - name: Add new blog post

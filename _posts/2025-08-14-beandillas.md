@@ -1,7 +1,7 @@
 ---
 title: Bønnedillas 
 date: 2025-08-14
-categories: [Recipes, texmex]
+categories: [TexMex]
 tags: [taco, texmex, summer, fresh]     # TAG names should always be lowercase
 toc: false
 image:

@@ -1,7 +1,7 @@
 ---
 title: Mapo Tofu Korean-Style - Korean Bapsang
 date: 2025-08-21
-categories: [Recipes, Korean]
+categories: [Korean]
 tags: [rice, tofu, gochujang, spicy]
 toc: false
 image:

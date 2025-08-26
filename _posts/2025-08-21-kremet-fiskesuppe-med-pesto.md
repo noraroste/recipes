@@ -1,7 +1,7 @@
 ---
 title: Kremet fiskesuppe med rød pesto og rotgrønnsaker
 date: 2025-08-21
-categories: [Recipes, fish]
+categories: [Fish]
 tags: [soup, fish, quick]     # TAG names should always be lowercase
 toc: false
 image:

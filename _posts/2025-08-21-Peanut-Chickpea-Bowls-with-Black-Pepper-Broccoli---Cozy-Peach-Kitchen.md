@@ -1,7 +1,7 @@
 ---
 title: Peanut Chickpea Bowls with Black Pepper Broccoli - Cozy Peach Kitchen
 date: 2025-08-21
-categories: [Recipes, Stew]
+categories: [Stew]
 tags: [comfort, rice, quick, peanutbutter]
 toc: false
 image:

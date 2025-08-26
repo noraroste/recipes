@@ -1,7 +1,7 @@
 ---
 title: Korean Seafood and Green Onion Pancakes Haemul Pajeon - My Korean Kitchen
 date: 2025-08-21
-categories: [Recipes, Korean]
+categories: [Korean]
 tags: [snack, comfort]
 toc: false
 image:

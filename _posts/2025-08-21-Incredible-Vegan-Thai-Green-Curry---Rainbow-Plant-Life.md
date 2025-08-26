@@ -1,7 +1,7 @@
 ---
 title: Incredible Vegan Thai Green Curry - Rainbow Plant Life
 date: 2025-08-21
-categories: [Recipe, Thai]
+categories: [Thai]
 tags: [rice, spicy, tofu]
 toc: false
 image:

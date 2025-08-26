@@ -1,7 +1,7 @@
 ---
 title: PAI MED SPINAT TOMATER OG FETA  TRINES MATBLOGG
 date: 2025-08-21
-categories: [Recipes, Pai]
+categories: [Pie]
 tags: [comfort, egg]
 toc: false
 image:

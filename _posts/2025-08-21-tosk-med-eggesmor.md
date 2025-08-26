@@ -1,7 +1,7 @@
 ---
 title: Torsk med eggesmør
 date: 2025-08-21
-categories: [Recipes, fish]
+categories: [Fish]
 tags: [fish, traditional]     # TAG names should always be lowercase
 toc: false
 image:

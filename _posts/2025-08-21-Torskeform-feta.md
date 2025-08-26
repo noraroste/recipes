@@ -1,7 +1,7 @@
 ---
 title: Torskeform med poteter, løk, paprika og feta 
 date: 2025-08-21
-categories: [Recipes, fish]
+categories: [Fish]
 tags: [fresh, fish, mediterranean]     # TAG names should always be lowercase
 toc: false
 image:

@@ -1,7 +1,7 @@
 ---
 title: Soppgryte - fra En skikkelig digg kokebok - Vegetarentusiastno
 date: 2025-08-21
-categories: [Recipes, Stew]
+categories: [Stew]
 tags: [traditional, comfort, fall]
 toc: false
 image:

@@ -1,7 +1,7 @@
 ---
 title: Lentil Bolognese - Rainbow Plant Life
 date: 2025-08-21
-categories: [Recipe, Italian]
+categories: [Italian]
 tags: [pasta, comfort]
 toc: false
 image:

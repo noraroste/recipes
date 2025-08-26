@@ -1,7 +1,7 @@
 ---
 title: Marokkansk Couscous Salat
 date: 2025-08-21
-categories: [Recipes, salad]
+categories: [Salad]
 tags: [summer, fresh, light]     # TAG names should always be lowercase
 toc: false
 image:

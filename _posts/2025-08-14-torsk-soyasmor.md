@@ -1,7 +1,7 @@
 ---
 title: Skrei med soyasmørsaus og potetmos 
 date: 2025-08-14
-categories: [Recipes, fish]
+categories: [Fish]
 tags: [fish, traditional]     # TAG names should always be lowercase
 toc: false
 image:

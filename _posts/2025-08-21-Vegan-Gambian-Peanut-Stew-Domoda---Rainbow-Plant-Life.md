@@ -1,7 +1,7 @@
 ---
 title: Vegan Gambian Peanut Stew Domoda - Rainbow Plant Life
 date: 2025-08-21
-categories: [Recipes, Stew]
+categories: [Stew]
 tags: [peanutbutter, comfort, rice]
 toc: false
 image:

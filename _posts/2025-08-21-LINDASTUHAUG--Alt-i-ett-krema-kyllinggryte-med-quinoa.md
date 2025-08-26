@@ -1,7 +1,7 @@
 ---
 title: LINDASTUHAUG  Alt-i-ett krema kyllinggryte med quinoa
 date: 2025-08-21
-categories: [Recipes, Stew]
+categories: [Stew]
 tags: [quick, creamy, all-in-one]
 toc: false
 image:

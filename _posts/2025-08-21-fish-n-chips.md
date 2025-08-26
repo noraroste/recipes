@@ -1,7 +1,7 @@
 ---
 title: Fish 'n' Chips
 date: 2025-08-21
-categories: [Recipes, fish]
+categories: [Fish]
 tags: [quick, fish]     # TAG names should always be lowercase
 toc: false
 image:

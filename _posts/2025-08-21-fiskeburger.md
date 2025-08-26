@@ -1,7 +1,7 @@
 ---
 title: Fiskeburger
 date: 2025-08-21
-categories: [Recipes, fish]
+categories: [Fish]
 tags: [quick, fish, burger]     # TAG names should always be lowercase
 toc: false
 image:

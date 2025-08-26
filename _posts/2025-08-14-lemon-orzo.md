@@ -1,7 +1,7 @@
 ---
 title: Lemon Orzo Pasta Salad 
 date: 2025-08-14
-categories: [Recipes, salad]
+categories: [Salad]
 tags: [salad, summer]     # TAG names should always be lowercase
 toc: false
 image:

@@ -30,12 +30,18 @@ jobs:
           source ./scripts/venv/bin/activate
           pip install -r ./scripts/requirements.txt
 
-      # Håndtere hva som skjer hvis to filer committes samtidig
-      - name: Run Python script
+      - name: Run script on last committed file (push)
+        if: ${{ github.event_name == 'push' }}
+        shell: bash
         run: |
+          set -Eeuo pipefail
           source ./scripts/venv/bin/activate
-          input_file=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | tail -n 1)
-          echo "Resolved input file: $input_file"
+          # List files in the current commit (no metadata), pick the last line
+          input_file="$(git show --name-only --pretty='' "${GITHUB_SHA}" | tail -n 1)"
+          echo "Resolved input file: '$input_file'"
+          if [[ -z "$input_file" ]]; then
+            echo "No file found in commit ${GITHUB_SHA}"; exit 1
+          fi
           python ./scripts/create-post-from-url.py --input-file "$input_file" --output-path ./_posts/
 
       - name: Add new blog post

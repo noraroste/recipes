@@ -25,4 +25,8 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
+
+# Python
+scripts/venv
 scripts/__pycache__
+

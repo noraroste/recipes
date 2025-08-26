@@ -40,6 +40,7 @@ def main():
   path = args.output_path
 
   if input_file:
+    print("Opening file: " + input_file)
     with open(input_file, 'r', encoding='utf-8') as file:
       lines = file.readlines()
       url = lines[0].strip()

@@ -1,0 +1,46 @@
+name: Add post
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "add-new-posts-here/**"
+
+jobs:
+  run-script-job:
+    runs-on: ubuntu-latest # Specify the runner environment
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Action to check out your repository code
+
+      - name: Download Python
+        uses: actions/setup-python@4
+        with:
+          python-version: "3.9"
+
+      - name: Create, Install, Run
+        run: |
+          python -m venv ./scripts/venv
+          source ./scripts/venv/bin/activate
+
+      - name: Install dependencies
+        run: |
+          source ./scripts/venv/bin/activate
+          pip install -r requirements.txt
+
+      # Håndtere hva som skjer hvis to filer committes samtidig
+      - name: Run Python script
+        run: |
+          source ./scripts/venv/bin/activate
+          input_file=$(git show --name-only --pretty=format: HEAD)
+          python ./scripts/create-post-from-url.py --input-file $input_file --output-path ./_posts/
+
+      - name: Add new blog post
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ./_posts/$input_file
+          git commit -m "[GitHub Actions] Add new blog post from $input_file"
+          git push

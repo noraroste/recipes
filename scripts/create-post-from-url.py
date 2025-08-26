@@ -23,19 +23,28 @@ def clean_title(title):
 def main():
   # Create argument parser
   parser = argparse.ArgumentParser(description='Create a blog post from a URL')
-  parser.add_argument('url', help='URL of the website to scrape')
-  parser.add_argument('--categories', default='[Recipes]', help='Categories in format "[Cat1, Cat2]"')
-  parser.add_argument('--tags', default='[]', help='Tags in format "[tag1, tag2]"')
+  parser.add_argument('--input-file', help='Path to input file containg url, categories and tags', default=None)
+  parser.add_argument('--url', help='URL of the website to scrape', default=None)
+  parser.add_argument('--categories', default='[]', help='Categories in format "[Cat1, Cat2]"')
+  parser.add_argument('--tags', default='[]', help='Tags in format "[tag1, tag2]"' )
   parser.add_argument('--output-path', default='../_posts/', help='Path to save the markdown file')
 
   # Parse arguments
   args = parser.parse_args()
 
   # Use the parsed values
+  input_file = args.input_file
   url = args.url
   categories = args.categories
   tags = args.tags
   path = args.output_path
+
+  if input_file:
+    with open(input_file, 'r', encoding='utf-8') as file:
+      lines = file.readlines()
+      url = lines[0].strip()
+      categories = lines[1].strip()
+      tags = lines[2].strip()
 
   site_title, recipe_description, image_first = scrape_meta_content(url)
 
@@ -67,7 +76,6 @@ image:
   [Link to recipe]({url})
 
   """
-  path = "../_posts/"
   # Write the markdown content to a file
   with open(path + file_name, 'w', encoding='utf-8') as file:
       file.write(markdown_content)

@@ -202,7 +202,7 @@ compress_html:
   profile: false
   blanklines: false
   ignore:
-    envs: [ development ]
+    envs: [development]
 
 exclude:
   - "*.gem"
@@ -215,9 +215,10 @@ exclude:
   - "*.config.js"
   - "package*.json"
   - scripts
+  - add-new-posts-here
 
 jekyll-archives:
-  enabled: [ categories, tags ]
+  enabled: [categories, tags]
   layouts:
     category: category
     tag: tag

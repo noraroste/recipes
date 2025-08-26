@@ -1,7 +1,7 @@
 ---
 title: Vegan Jajangmyeon Korean black bean sauce noodles  My Plantiful Cooking
 date: 2025-08-21
-categories: [Recipes, Korean]
+categories: [Korean]
 tags: [noodles, tofu, comfort]
 toc: false
 image:

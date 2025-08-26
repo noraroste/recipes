@@ -1,7 +1,7 @@
 ---
 title: Sun-Dried Tomato  Roasted Vegetable Tart  Pick Up Limes
 date: 2025-08-26
-categories: [Pai]
+categories: [Pie]
 tags: [time-consuming, puff-pastry]
 toc: false
 image:

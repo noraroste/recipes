@@ -34,9 +34,9 @@ jobs:
       - name: Run Python script
         run: |
           source ./scripts/venv/bin/activate
-          input_file=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }})
-          echo $input_file
-          python ./scripts/create-post-from-url.py --input-file $input_file --output-path ./_posts/
+          input_file=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | tail -n 1)
+          echo "Resolved input file: $input_file"
+          python ./scripts/create-post-from-url.py --input-file "$input_file" --output-path ./_posts/
 
       - name: Add new blog post
         run: |

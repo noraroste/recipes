@@ -16,9 +16,9 @@ jobs:
         uses: actions/checkout@v4 # Action to check out your repository code
 
       - name: Download Python
-        uses: actions/setup-python@4
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.9"
+          python-version: "3.x"
 
       - name: Create, Install, Run
         run: |

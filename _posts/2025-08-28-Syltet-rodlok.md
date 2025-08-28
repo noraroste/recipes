@@ -1,7 +1,5 @@
 ---
-title: 
-	Syltet rodlok 
-
+title: Syltet rodlok 
 date: 2025-08-28
 categories: [Accessories]
 tags: [garnish, fresh]

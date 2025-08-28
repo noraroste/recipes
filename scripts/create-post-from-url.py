@@ -16,7 +16,7 @@ def clean_title(title):
     title = title.replace(char, replacement)
 
   # Remove other special characters that could cause issues in filenames
-  title = re.sub(r'[^\w\s-]', '', title)
+  title = re.sub(r'[^\w\s-]', '', title).strip()
 
   return title
 

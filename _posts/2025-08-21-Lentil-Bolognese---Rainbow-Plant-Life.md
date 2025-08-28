@@ -8,7 +8,7 @@ image:
   path: https://rainbowplantlife.com/wp-content/uploads/2023/07/bolognese-on-fork-1-of-1.jpg
 ---
 
-  # Lentil Bolognese - Rainbow Plant Life
+## Lentil Bolognese - Rainbow Plant Life
 
   This vegan Lentil Bolognese is an easy, yet gourmet meal made with 10 pantry staple ingredients. It’s deceptively meaty and ultra-satisfying!
 

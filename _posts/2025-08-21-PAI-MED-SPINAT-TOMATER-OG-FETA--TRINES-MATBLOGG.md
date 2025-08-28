@@ -8,7 +8,7 @@ image:
   path: https://trinesmatblogg.no/wp-content/uploads/2018/05/IMG_9233.jpg
 ---
 
-  # PAI MED SPINAT TOMATER OG FETA  TRINES MATBLOGG
+## PAI MED SPINAT TOMATER OG FETA  TRINES MATBLOGG
 
   Lag paideigen ved å smuldre sammen hvetemel og smør, og tilsett vann til du får en jevn konsistens. Bruk gjerne kjøkkenmaskin, men ikke kjør deigen mer enn det…
 

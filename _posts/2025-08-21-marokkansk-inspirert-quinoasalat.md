@@ -7,5 +7,7 @@ toc: false
 image:
  path: https://www.occasionallyeggs.com/wp-content/uploads/2020/09/Moroccan-Quinoa-Salad-3.jpg
 ---
-Marokkansk inspirert quinoasalat
+
+## Marokkansk inspirert quinoasalat
+
 [Link til oppskrift](https://www.occasionallyeggs.com/moroccan-quinoa-carrot-and-chickpea-salad/#recipe)

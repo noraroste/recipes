@@ -7,7 +7,7 @@ toc: false
 image:
  path: /images/beandillas.jpeg
 ---
-Bønnedillas
+## Bønnedillas
 
 Oppskrift av Emilie Nereng [Link to recipe](https://www.instagram.com/emilienutrition/p/BzOhfvKpUuE/)
 

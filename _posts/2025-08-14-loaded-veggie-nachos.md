@@ -7,6 +7,6 @@ toc: false
 image:
  path: https://cookieandkate.com/images/2018/04/loaded-vegetable-nachos-recipe-2.jpg
 ---
-Loaded veggie nachos
+## Loaded veggie nachos
 
 [Link to recipe](https://cookieandkate.com/loaded-veggie-nachos-recipe/)

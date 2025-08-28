@@ -7,6 +7,6 @@ toc: false
 image:
  path: https://rainbowplantlife.com/wp-content/uploads/2021/07/lemon-orzo-pasta-salad-on-light-green-5x4-1-of-1.jpg
 ---
-Lemon Orzo Pasta Salad
+## Lemon Orzo Pasta Salad
 
 [Link to recipe](https://rainbowplantlife.com/lemon-orzo-pasta-salad/)

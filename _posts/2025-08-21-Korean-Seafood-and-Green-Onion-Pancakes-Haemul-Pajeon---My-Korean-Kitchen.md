@@ -8,7 +8,7 @@ image:
   path: https://mykoreankitchen.com/wp-content/uploads/2015/06/S1.-Korean-Pancake-Recipe-Pajeon-150x150.jpg
 ---
 
-  # Korean Seafood and Green Onion Pancakes Haemul Pajeon - My Korean Kitchen
+## Korean Seafood and Green Onion Pancakes Haemul Pajeon - My Korean Kitchen
 
   Savory and delicious Korean pajeon recipe. Learn how to make Korean seafood and green onion pancakes, "Haemul Pajeon" at home. It's so easy!
 

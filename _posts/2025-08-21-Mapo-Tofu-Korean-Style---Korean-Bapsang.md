@@ -8,7 +8,7 @@ image:
   path: https://www.koreanbapsang.com/wp-content/uploads/2016/01/DSC_0979-e1453178671729.jpg
 ---
 
-  # Mapo Tofu Korean-Style - Korean Bapsang
+## Mapo Tofu Korean-Style - Korean Bapsang
 
   You can make this Korean-style mapo tofu recipe with a few basic ingredients in less than 30 minutes. Enjoy soft tofu infused with intense savory and
 

@@ -8,7 +8,7 @@ image:
   path: https://rainbowplantlife.com/wp-content/uploads/2024/02/sesame-noodles-hero-2-1-of-1.jpg
 ---
 
-  ## Sesame Noodles - Rainbow Plant Life
+## Sesame Noodles - Rainbow Plant Life
 
   Chinese Sesame Noodles toss noodles & vegetables in a rich, nutty sesame sauce for an easy, flavor-packed meal ready in 30 minutes!
 

@@ -70,11 +70,11 @@ image:
   path: {image_first}
 ---
 
-  ## {cleaned_title}
+## {cleaned_title}
 
-  {recipe_description}
+{recipe_description}
 
-  [Link to recipe]({url})
+[Link to recipe]({url})
 
   """
   # Write the markdown content to a file

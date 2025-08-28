@@ -7,5 +7,7 @@ toc: false
 image:
  path: https://cookingformysoul.com/wp-content/uploads/2025/01/moroccan-couscous-salad-2-min.jpg
 ---
-Marokkansk Couscous Salat
+
+## Marokkansk Couscous Salat
+
 [Link til oppskrift](https://cookingformysoul.com/moroccan-couscous-salad/)

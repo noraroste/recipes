@@ -7,5 +7,6 @@ toc: false
 image:
  path: https://trinesmatblogg.no/wp-content/uploads/2014/04/IMG_4988.jpg
 ---
-Torkseform med poteter, løk, paprike og feta
+## Torkseform med poteter, løk, paprike og feta
+
 [Link til oppskrift](https://trinesmatblogg.no/recipe/torskeform-med-poteter-lok-paprika-og-feta/)

@@ -5,7 +5,7 @@ categories: [AsianFusion]
 tags: [quick, wrap]
 toc: false
 image:
-  path: /images/cheat-banh-mi.jpg
+  path: /images/cheat-banh-mi.png
 ---
 ## Cheat Banh Mi Roll
 recipe by Maya Leinenbach

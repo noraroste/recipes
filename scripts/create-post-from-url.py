@@ -70,7 +70,7 @@ image:
   path: {image_first}
 ---
 
-  # {cleaned_title}
+  ## {cleaned_title}
 
   {recipe_description}
 

@@ -5,7 +5,7 @@ categories: [Thai]
 tags: [rice, spicy, tofu]
 toc: false
 image:
-  path: https://rainbowplantlife.com/wp-content/uploads/2024/06/pic-big-vegan-flavor.jpg
+  path: https://rainbowplantlife.com/wp-content/uploads/2023/01/Hero_03_Vegan-Thai-Green-Curry-1.jpg
 ---
 
   # Incredible Vegan Thai Green Curry - Rainbow Plant Life

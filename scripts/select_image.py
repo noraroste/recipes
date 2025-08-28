@@ -37,6 +37,7 @@ def check_rendered_image_size(img):
     import re
     width_match = re.search(r'width\s*:\s*(\d+)px', style)
     height_match = re.search(r'height\s*:\s*(\d+)px', style)
+    # print(f"Style attribute for image {src}: {width_match}, {height_match}")
 
     if width_match and height_match:
       width = int(width_match.group(1))
@@ -55,11 +56,8 @@ def check_rendered_image_size(img):
       if not (str(width).endswith('%') or str(height).endswith('%')):
         width = int(width) if str(width).isdigit() else 0
         height = int(height) if str(height).isdigit() else 0
-        # print(f"Image {src} has HTML dimensions: {width}x{height}")
-        if width > 100 and height > 100:
-          return src, True
-        else:
-          # print(f"Image {src} is too small: {width}x{height}")
+        #print(f"Image {src} has HTML dimensions: {width}x{height}")
+        if width < 200 or height < 200:
           return None, False
     except ValueError:
       # print(f"Invalid dimensions for image {src}: width={width}, height={height}")

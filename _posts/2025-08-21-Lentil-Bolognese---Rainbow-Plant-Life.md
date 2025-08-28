@@ -5,7 +5,7 @@ categories: [Italian]
 tags: [pasta, comfort]
 toc: false
 image:
-  path: https://rainbowplantlife.com/wp-content/uploads/2024/06/pic-big-vegan-flavor.jpg
+  path: https://rainbowplantlife.com/wp-content/uploads/2023/07/bolognese-on-fork-1-of-1.jpg
 ---
 
   # Lentil Bolognese - Rainbow Plant Life

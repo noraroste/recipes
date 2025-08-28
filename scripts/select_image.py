@@ -43,8 +43,8 @@ def check_rendered_image_size(img):
       width = int(width_match.group(1))
       height = int(height_match.group(1))
       # print(f"Image {src} has CSS dimensions: {width}x{height}")
-      if width > 100 and height > 100:
-        return src, True
+      if width < 200 or height < 200:
+        return None,False
 
   # Check width/height attributes
   width = img.get('width')
@@ -56,7 +56,7 @@ def check_rendered_image_size(img):
       if not (str(width).endswith('%') or str(height).endswith('%')):
         width = int(width) if str(width).isdigit() else 0
         height = int(height) if str(height).isdigit() else 0
-        #print(f"Image {src} has HTML dimensions: {width}x{height}")
+        # print(f"Image {src} has HTML dimensions: {width}x{height}")
         if width < 200 or height < 200:
           return None, False
     except ValueError:

@@ -5,7 +5,7 @@ categories: [Stew]
 tags: [peanutbutter, comfort, rice]
 toc: false
 image:
-  path: https://rainbowplantlife.com/wp-content/uploads/2024/06/pic-big-vegan-flavor.jpg
+  path: https://rainbowplantlife.com/wp-content/uploads/2020/01/bowl-of-Gambian-Peanut-Stew-served-over-white-rice-1-of-1-819x1024.jpg
 ---
 
   # Vegan Gambian Peanut Stew Domoda - Rainbow Plant Life

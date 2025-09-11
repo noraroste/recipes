@@ -5,7 +5,7 @@ categories: [Italian]
 tags: [pasta, olives, capers, quick]
 toc: false
 image:
-  path: https://static01.nyt.com/images/2025/08/19/multimedia/cg-one-pot-roasted-garlic-pasta-qbgk/cg-one-pot-roasted-garlic-pasta-qbgk-mediumThreeByTwo440.jpg%3Fformat%3Dpjpg%26quality%3D75%26auto%3Dwebp%26disable%3Dupscale
+  path: https://static01.nyt.com/images/2010/12/07/science/10recipehealth/10recipehealth-jumbo-v2.jpg?quality=75&auto=webp
 ---
 
 ## Pasta With Tomatoes Capers Olives and Breadcrumbs Recipe

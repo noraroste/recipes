@@ -28,6 +28,7 @@ def main():
   parser.add_argument('--categories', default='[]', help='Categories in format "[Cat1, Cat2]"')
   parser.add_argument('--tags', default='[]', help='Tags in format "[tag1, tag2]"' )
   parser.add_argument('--output-path', default='../_posts/', help='Path to save the markdown file')
+  parser.add_argument('--debug', default='false', help='Enable debug mode')
 
   # Parse arguments
   args = parser.parse_args()
@@ -38,6 +39,7 @@ def main():
   categories = args.categories
   tags = args.tags
   path = args.output_path
+  debug = args.debug.lower() == 'true'
 
   if input_file:
     print("Opening file: " + input_file)
@@ -47,16 +49,17 @@ def main():
       categories = lines[1].strip()
       tags = lines[2].strip()
 
-  site_title, recipe_description, image_first = scrape_meta_content(url)
+  site_title, recipe_description, image_first = scrape_meta_content(url, debug)
 
   cleaned_title = clean_title(site_title)
   today = date.today()
   formatted_date = today.strftime("%Y-%m-%d")
   file_name = formatted_date + "-" + cleaned_title.replace(" ", "-") + ".md"
-  print(f"File name: {file_name}")
-  print(f"Title: {cleaned_title}")
-  print(f"Description: {recipe_description}")
-  print(f"Image URL: {image_first}")
+  if debug:
+    print(f"File name: {file_name}")
+    print(f"Title: {cleaned_title}")
+    print(f"Description: {recipe_description}")
+    print(f"Image URL: {image_first}")
 
   # Create the markdown content
   markdown_content = \

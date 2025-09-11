@@ -5,7 +5,7 @@ categories: [Italian]
 tags: [sicillian, aubergine, pasta]
 toc: false
 image:
-  path: https://www.detsoteliv.no/sites/default/files/styles/medium_preview/public/fields/images/main/7T1A1524.jpg%3Fitok%3DHazc1SRx
+  path:  https://www.detsoteliv.no/sites/default/files/styles/medium_preview/public/fields/images/main/7T1A1524.jpg?itok=Hazc1SRx
 ---
 
 ## Pasta alla Norma  Det sote liv

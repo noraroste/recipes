@@ -7,7 +7,7 @@ from select_image import find_first_image
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-def scrape_meta_content(url):
+def scrape_meta_content(url, debug=False):
   # Add browser-like headers
   headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -24,20 +24,23 @@ def scrape_meta_content(url):
     soup = BeautifulSoup(response.text, 'html.parser')
 
     title = soup.find('title')
-    print(f"Title: {title.text}")
+    if debug:
+      print(f"Title: {title.text}")
 
     description = soup.find('meta', attrs={'name': 'description'})
     content = ''
     if description:
       content = description.get('content')
-      print(f'Description: {content}')
+      if debug:
+        print(f'Description: {content}')
 
 
-    image = find_first_image(soup, url)
-    print(f"Image URL: {image}")
+    image = find_first_image(soup, debug)
+    if debug:
+      print(f"Image URL: {image}")
     # URL encode the image URL to handle special characters
     if image:
-      encoded_image = quote(image, safe='/:')
+      encoded_image = quote(image, safe='/:?=&')
       print(f"Encoded image URL: {encoded_image}")
     else:
       encoded_image = None

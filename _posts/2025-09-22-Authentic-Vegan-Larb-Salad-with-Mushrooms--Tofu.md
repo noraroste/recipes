@@ -5,7 +5,7 @@ categories: Thai
 tags: fresh, citrus
 toc: false
 image:
-  path: https://maddysavenue.com/wp-content/uploads/2021/01/Maddy-2-1024x1024.jpg
+  path: https://maddysavenue.com/wp-content/uploads/2021/03/IMG_8811-1.png
 ---
 
 ## Authentic Vegan Larb Salad with Mushrooms  Tofu

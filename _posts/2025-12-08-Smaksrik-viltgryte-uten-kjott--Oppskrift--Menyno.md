@@ -12,6 +12,10 @@ image:
 
 Oppskrift på kjøttfri variant av høstfavoritten viltgryte med fløte, einebær, kantareller og kjøtterstatning. Server med ris og tyttebærsyltetøy.
 
+Stekt vegetarkjøttdeig kan erstattes med ovnsstekt røkt tofu, og brunostrester kan slenges oppi. 
+
+Kan vurdere sukkerkulør for dypere farge.
+
 [Link to recipe](https://meny.no/oppskrifter/vegetar/vegetar-viltgryte)
 
   

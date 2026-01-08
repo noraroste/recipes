@@ -2,15 +2,15 @@
 title: Aglio e olio
 date: 2026-01-08
 categories: Pasta
-tags: quick, pasta, italian, simple
+tags: pasta, quick, simple, italian, garlic
 toc: false
 image:
-  path: https://img.godt.no/w1600/plain/recipes/96/965f8f10-5eb5-461d-9250-cd2c717f7161
+  path: https://img.godt.no/w4000/plain/tags/02/024ff350-8619-4e39-b406-dd79d8f4f2f0
 ---
 
 ## Aglio e olio
 
-Denne pastaen, hentet fra Pasta hver dag, er en ekte klassiker, og veldig enkel å lage! Perfekt hverdagspasta når du ikke har ork til å tenke på hva du skal lage, og ikke har kjempelyst å handle i rushtiden. En klassisk italiensk pastarett med bare noen få ingredienser som tar 15 minutter å lage.
+Denne pastaen er veldig enkel og rask å lage. Få oppskriften her!
 
 [Link to recipe](https://www.godt.no/oppskrifter/rask/11576/aglio-e-olio)
 

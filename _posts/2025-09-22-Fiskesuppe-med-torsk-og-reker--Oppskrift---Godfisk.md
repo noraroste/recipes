@@ -5,7 +5,7 @@ categories: Soup
 tags: fish, traditional, cream
 toc: false
 image:
-  path: None
+  path: https://www.godfisk.no/globalassets/3iuka/godfisk/torsk/fiskesuppe-torsk-reker.jpg?width=3280&height=1620&transform=downFill&hash=184c7c4c9b691328c56c8f2f291b993b
 ---
 
 ## Fiskesuppe med torsk og reker  Oppskrift - Godfisk

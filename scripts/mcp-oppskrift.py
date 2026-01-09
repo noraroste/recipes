@@ -1,16 +1,15 @@
 from fastmcp import FastMCP
 
-from scripts.scrape_content import scrape_meta_content
+from scrape_content import scrape_meta_content
 
 mcp = FastMCP("oppskrifts-server")
+
 
 @mcp.tool("add-recipe-tool")
 def add_recipe(url: str) -> str:
   """
-  Legg til en oppskrift fra en gitt URL til oppskriftsdatabasen.
-
   Du skal legge til en fil _posts mappen i dette repoet : https://github.com/noraroste/recipes/tree/main/
-  repoet ligger lokalt i git/recipes mappa
+  repoet ligger lokalt i git/recipes mappa. Dette må du gjøre manuelt ved å bruke dataene som blir skrapet fra nettsiden i dette verktøyet.
 
   :param url: URL til oppskriften.
 
@@ -20,6 +19,7 @@ def add_recipe(url: str) -> str:
 
   Det kan gjerne være mer enn en tag dersom det passer. Her skal du helst bruke det som finnes fra før, men du kan legge til.
   all-in-one, aubergine, bbq, bok-choy, bowl, breakfast, breakfast non-knead simple, burger, burrito, capers, chickpeas, citrus, comfort, mushroom , tofu, creamy, easy, egg, fall, fish, fresh, garnish, gochugaru, gochujang, green, guacamole, left-overs, light, maple-syrup, mediterranean, non-knead, non-knead easy, noodles, okonomiyaki, olives, olives,, pancakes, pasta, peanutbutter, puff-pastry, quick comfort, quick, rice, salad, sesame-paste, sicillian, simple, smoky, snack, soup, spicy, summer, sweet-potato, taco, tandoori, texmex, tikka-masala, time-consuming, tofu, traditional, wrap
+  tagsene bør være separert med komma.
 
   Du kan bruke scrape_content funksjonen til å hente ut tittel, beskrivelse og bilde-URL fra nettsiden.
 
@@ -29,11 +29,11 @@ def add_recipe(url: str) -> str:
 ---
 title: <Tittel på oppskrift>
 date: <Dagens dato>
-categories: <Kategori>
-tags: <tags>
+categories: [<Kategori>]
+tags: [<tags>]
 toc: false
 image:
-path: <Bilde-URL>
+path: <Bilde-URL(image_first)>
 ---
 
 ## <Tittel på oppskrift>
@@ -46,6 +46,17 @@ path: <Bilde-URL>
   """
 
   site_title, recipe_description, image_first = scrape_meta_content(url)
+
+  return f"""Scraped recipe data:
+    Title: {site_title}
+    Description: {recipe_description}
+    Image URL: {image_first}
+    Recipe URL: {url}
+
+    Please create a markdown file in the _posts folder with the format YYYY-MM-DD-title.md using this data.
+    Use the title, description, and image URL from above to fill in the template.
+    After creating the file, commit it with message "Add new recipe: {site_title}" and push to origin main."""
+
 
 if __name__ == "__main__":
   mcp.run(transport="stdio")

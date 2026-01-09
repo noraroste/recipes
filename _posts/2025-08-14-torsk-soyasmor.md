@@ -1,11 +1,11 @@
 ---
-title: Skrei med soyasmørsaus og potetmos 
+title: Skrei med soyasmørsaus og potetmos
 date: 2025-08-14
 categories: [Fish]
-tags: [fish, traditional]     # TAG names should always be lowercase
+tags: [fish, traditional]
 toc: false
 image:
- path: https://www.detsoteliv.no/sites/default/files/fields/images/main/2T3A3237.jpg
+  path: https://www.detsoteliv.no/sites/default/files/fields/images/main/2T3A3237.jpg
 ---
 ## Skrei med soyasmørsaus og potetmos
 

@@ -1,11 +1,11 @@
 ---
-title: Fiesta form 
+title: Fiesta form
 date: 2025-08-14
 categories: [TexMex]
-tags: [taco, texmex, summer, light, fresh]     # TAG names should always be lowercase
+tags: [taco, texmex, summer, light, fresh]
 toc: false
 image:
- path: https://vegetarentusiast.no/wp-content/uploads/2023/02/Fiesta-form-1-1.jpg
+  path: https://vegetarentusiast.no/wp-content/uploads/2023/02/Fiesta-form-1-1.jpg
 ---
 ## Fiesta form 
 

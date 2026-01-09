@@ -1,11 +1,11 @@
 ---
-title: Bønnedillas 
+title: Bønnedillas
 date: 2025-08-14
 categories: [TexMex]
-tags: [taco, texmex, summer, fresh]     # TAG names should always be lowercase
+tags: [taco, texmex, summer, fresh]
 toc: false
 image:
- path: /images/beandillas.jpeg
+  path: /images/beandillas.jpeg
 ---
 ## Bønnedillas
 

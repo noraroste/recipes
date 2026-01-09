@@ -10,8 +10,7 @@ image:
 
 ## Sesame Noodles - Rainbow Plant Life
 
-  Chinese Sesame Noodles toss noodles & vegetables in a rich, nutty sesame sauce for an easy, flavor-packed meal ready in 30 minutes!
+Chinese Sesame Noodles toss noodles & vegetables in a rich, nutty sesame sauce for an easy, flavor-packed meal ready in 30 minutes!
 
-  [Link to recipe](https://rainbowplantlife.com/sesame-noodles/#recipe)
+[Link to recipe](https://rainbowplantlife.com/sesame-noodles/#recipe)
 
-  

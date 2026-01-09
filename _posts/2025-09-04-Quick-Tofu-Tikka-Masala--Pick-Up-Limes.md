@@ -14,4 +14,4 @@ This dish was inspired by the famous Chicken Tikka masala recipe, that is often 
 
 [Link to recipe](https://www.pickuplimes.com/recipe/quick-tofu-tikka-masala-1097)
 
-  
+

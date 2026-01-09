@@ -14,4 +14,4 @@ En nydelig currygryte med kikerter og kokosmelk. En skikkelig smaksbombe som er 
 
 [Link to recipe](https://vegetarentusiast.no/hurrycurry/)
 
-  
+

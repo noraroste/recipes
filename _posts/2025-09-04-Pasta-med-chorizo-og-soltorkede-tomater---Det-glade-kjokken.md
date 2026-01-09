@@ -5,7 +5,7 @@ categories: [Pasta]
 tags: [spicy, quick, easy]
 toc: false
 image:
-  path: https://i0.wp.com/detgladekjokken.no/wp-content/uploads/2019/08/Tagliatelle-med-chorizo-og-solt%C3%B8rkede-tomater.jpg?w=1193&ssl=1 
+  path: https://i0.wp.com/detgladekjokken.no/wp-content/uploads/2019/08/Tagliatelle-med-chorizo-og-solt%C3%B8rkede-tomater.jpg?w=1193&ssl=1
 ---
 
 ## Pasta med chorizo og soltorkede tomater - Det glade kjokken
@@ -14,4 +14,4 @@ Her kommer et tips om en lettvint og deilig pastarett - pasta med chorizo og sol
 
 [Link to recipe](https://detgladekjokken.no/oppskrift/pasta-med-chorizo-og-soltorkede-tomater/)
 
-  
+

@@ -14,4 +14,4 @@ image:
 
 [Link to recipe](https://vegetarentusiast.no/spropitadrom/)
 
-  
+

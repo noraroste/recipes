@@ -10,8 +10,7 @@ image:
 
 ## Vegan Gambian Peanut Stew Domoda - Rainbow Plant Life
 
-  This Gambian Peanut Stew is a vegan spin on West African peanut stews and makes for a flavor-packed hearty yet healthy plant-based dinner!
+This Gambian Peanut Stew is a vegan spin on West African peanut stews and makes for a flavor-packed hearty yet healthy plant-based dinner!
 
-  [Link to recipe](https://rainbowplantlife.com/vegan-west-african-peanut-stew/)
+[Link to recipe](https://rainbowplantlife.com/vegan-west-african-peanut-stew/)
 
-  

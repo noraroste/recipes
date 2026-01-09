@@ -13,5 +13,3 @@ image:
 Hearty Vegan Sloppy Joes made with fresh, simple ingredients, naturally sweetened, and require just 30 minutes! A savory, smoky, delicious plant-based meal!
 
 [Link to recipe](https://minimalistbaker.com/vegan-sloppy-joes/)
-
-  

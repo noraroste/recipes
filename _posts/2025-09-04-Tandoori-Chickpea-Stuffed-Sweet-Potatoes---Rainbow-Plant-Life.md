@@ -14,4 +14,4 @@ These Tandoori Chickpea Stuffed Sweet Potatoes bring all those spicy, aromatic I
 
 [Link to recipe](https://rainbowplantlife.com/tandoori-chickpea-stuffed-sweet-potatoes/)
 
-  
+

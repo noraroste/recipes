@@ -1,5 +1,5 @@
 ---
-title: Syltet rodlok 
+title: Syltet rodlok
 date: 2025-08-28
 categories: [Accessories]
 tags: [garnish, fresh]
@@ -13,4 +13,3 @@ image:
 Syltet rødløk smaker nydelig som tilbehør til kjøttretter, og er et must for den som vil lage et fristende og lekkert tilbehør til sommerens pølser.
 
 [Link to recipe](https://www.matprat.no/oppskrifter/gjester/syltet-rodlok/)
-

@@ -5,7 +5,7 @@ categories: [Korean]
 tags: [spicy, tofu, comfort, stew, kimchi, easy]
 toc: false
 image:
-  path: https://www.maangchi.com/wp-content/uploads/2015/01/anchovystock-590x372.jpg
+  path: https://www.maangchi.com/wp-content/uploads/2015/01/sundubu.jpg
 ---
 
 ## Kimchi Sundubu-jjigae (Spicy Soft Tofu Stew)

@@ -1,5 +1,5 @@
 ---
-title: LINDASTUHAUG  Eltefrie surdeigsrundstykke av spelt
+title: Eltefrie surdeigsrundstykke av spelt
 date: 2025-12-13
 categories: [Bread]
 tags: [sourdough]

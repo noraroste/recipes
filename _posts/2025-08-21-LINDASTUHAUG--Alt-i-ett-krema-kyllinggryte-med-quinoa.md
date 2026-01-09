@@ -1,5 +1,5 @@
 ---
-title: LINDASTUHAUG  Alt-i-ett krema kyllinggryte med quinoa
+title: Alt-i-ett krema kyllinggryte med quinoa
 date: 2025-08-21
 categories: [Stew]
 tags: [quick, creamy, all-in-one]
@@ -9,6 +9,7 @@ image:
 ---
 ## LINDASTUHAUG  Alt-i-ett krema kyllinggryte med quinoa
 
-Hei! Idag prøver vi oss på ein ny oppskrift på alt-i-ett gryte! Prinsippet her er det samme som alt-i-ett alltid har vore: du har alle ingrediensane i ei gryte, og noko ekstra tilbehør er ikkje nødvendig. Slike gryter er både raske og enkle å lage, krever lite oppvask og du setter heile kjelen på bordet til …
+Hei! Idag prøver vi oss på ein ny oppskrift på alt-i-ett gryte! Prinsippet her er det samme som alt-i-ett alltid har vore: du har alle ingrediensane i ei gryte, og noko ekstra tilbehør er ikkje nødvendig. Slike gryter er både raske og enkle å lage, krever lite oppvask og du setter heile kjelen på bordet til …
 
 [Link to recipe](https://lindastuhaug.no/alt-ett-krema-kyllinggryte-med-quinoa)
+

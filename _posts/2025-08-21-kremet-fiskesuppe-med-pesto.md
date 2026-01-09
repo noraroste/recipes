@@ -2,10 +2,10 @@
 title: Kremet fiskesuppe med rød pesto og rotgrønnsaker
 date: 2025-08-21
 categories: [Fish]
-tags: [soup, fish, quick]     # TAG names should always be lowercase
+tags: [soup, fish, quick]
 toc: false
 image:
- path: https://trinesmatblogg.no/wp-content/uploads/2024/08/IMG_1245-1.jpg 
+  path: https://trinesmatblogg.no/wp-content/uploads/2024/08/IMG_1245-1.jpg
 ---
 ## Kremet fiskesuppe med rød pesto og rotgrønnsaker
 

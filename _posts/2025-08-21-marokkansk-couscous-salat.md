@@ -2,10 +2,10 @@
 title: Marokkansk Couscous Salat
 date: 2025-08-21
 categories: [Salad]
-tags: [summer, fresh, light]     # TAG names should always be lowercase
+tags: [summer, fresh, light]
 toc: false
 image:
- path: https://cookingformysoul.com/wp-content/uploads/2025/01/moroccan-couscous-salad-2-min.jpg
+  path: https://cookingformysoul.com/wp-content/uploads/2025/01/moroccan-couscous-salad-2-min.jpg
 ---
 
 ## Marokkansk Couscous Salat

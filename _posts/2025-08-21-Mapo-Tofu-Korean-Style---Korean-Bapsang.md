@@ -14,4 +14,4 @@ image:
 
   [Link to recipe](https://www.koreanbapsang.com/mapo-tofu-korean-style/)
 
-  
+

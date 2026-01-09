@@ -10,8 +10,7 @@ image:
 
 ## Incredible Vegan Thai Green Curry - Rainbow Plant Life
 
-  Bring the flavors of Thailand to your kitchen with this restaurant-quality Vegan Thai Green Curry! Bursting with flavor AND easy to make!
+Bring the flavors of Thailand to your kitchen with this restaurant-quality Vegan Thai Green Curry! Bursting with flavor AND easy to make!
 
-  [Link to recipe](https://rainbowplantlife.com/vegan-thai-green-curry/)
+[Link to recipe](https://rainbowplantlife.com/vegan-thai-green-curry/)
 
-  

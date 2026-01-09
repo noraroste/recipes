@@ -2,10 +2,10 @@
 title: Fish 'n' Chips
 date: 2025-08-21
 categories: [Fish]
-tags: [quick, fish]     # TAG names should always be lowercase
+tags: [quick, fish]
 toc: false
 image:
- path: https://res.cloudinary.com/norgesgruppen/images/c_scale,dpr_auto,f_auto,q_auto:eco,w_420/gpere8ubncwgn53hridh/fish-and-chips
+  path: https://res.cloudinary.com/norgesgruppen/images/c_scale,dpr_auto,f_auto,q_auto:eco,w_420/gpere8ubncwgn53hridh/fish-and-chips
 ---
 ## Fish 'n' Chips
 

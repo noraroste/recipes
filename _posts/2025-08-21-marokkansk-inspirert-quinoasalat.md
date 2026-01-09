@@ -2,10 +2,10 @@
 title: Marokkansk inspirert quinoasalat
 date: 2025-08-21
 categories: [Salad]
-tags: [summer, fresh, light]     # TAG names should always be lowercase
+tags: [summer, fresh, light]
 toc: false
 image:
- path: https://www.occasionallyeggs.com/wp-content/uploads/2020/09/Moroccan-Quinoa-Salad-3.jpg
+  path: https://www.occasionallyeggs.com/wp-content/uploads/2020/09/Moroccan-Quinoa-Salad-3.jpg
 ---
 
 ## Marokkansk inspirert quinoasalat

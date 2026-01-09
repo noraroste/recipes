@@ -10,8 +10,7 @@ image:
 
 ## Peanut Chickpea Bowls with Black Pepper Broccoli - Cozy Peach Kitchen
 
-  Creamy peanut sauce is combined with chickpeas, black pepper broccoli and rice for a healthy and flavorful meal that takes under 30 minutes to make!
+Creamy peanut sauce is combined with chickpeas, black pepper broccoli and rice for a healthy and flavorful meal that takes under 30 minutes to make!
 
-  [Link to recipe](https://cozypeachkitchen.com/peanut-sauce-chickpea-and-broccoli-bowls/)
+[Link to recipe](https://cozypeachkitchen.com/peanut-sauce-chickpea-and-broccoli-bowls/)
 
-  

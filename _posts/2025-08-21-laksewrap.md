@@ -2,10 +2,10 @@
 title: Laksewrap
 date: 2025-08-21
 categories: [Fish]
-tags: [quick, fish, wrap]     # TAG names should always be lowercase
+tags: [quick, fish, wrap]
 toc: false
 image:
- path: https://www.homemademastery.com/wp-content/uploads/2021/01/Mediterranean-salmon-wraps-IMG_1598.jpg 
+  path: https://www.homemademastery.com/wp-content/uploads/2021/01/Mediterranean-salmon-wraps-IMG_1598.jpg
 ---
 ## Laksewrap
 

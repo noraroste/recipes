@@ -13,6 +13,5 @@ image:
 ### Notater
 legg til brunost og bruk 2 spiseskjeer rødvinseddik i stedet for rødvin
 
-  [Link to recipe](https://vegetarentusiast.no/soppgryte-fra-en-skikkelig-digg-kokebok/)
+[Link to recipe](https://vegetarentusiast.no/soppgryte-fra-en-skikkelig-digg-kokebok/)
 
-  

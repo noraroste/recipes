@@ -15,15 +15,19 @@ def add_recipe(url: str) -> str:
 
   Du må finne frem tittel, beskrivselse, dato, kategori, tags og bilde-URL fra oppskriften på nettsiden.
   Kategorien skal helst være en av følgende, og du kan bare lage ny hvis ingen passer:
-      Accessories, American, AsianFusion, Bread, Filipin, Fish , Indian, Italian, Japanese, Korean, Mexica, Pasta, Pie, Salad, Soup, Stew, TexMex, Thai,
+      Accessories, American, AsianFusion, Bread, Filipino, Fish , Indian, Italian, Japanese, Korean, Mexican, Pasta, Pie, Salad, Soup, Stew, TexMex, Thai
 
   Det kan gjerne være mer enn en tag dersom det passer. Her skal du helst bruke det som finnes fra før, men du kan legge til.
   all-in-one, aubergine, bbq, bok-choy, bowl, breakfast, breakfast non-knead simple, burger, burrito, capers, chickpeas, citrus, comfort, mushroom , tofu, creamy, easy, egg, fall, fish, fresh, garnish, gochugaru, gochujang, green, guacamole, left-overs, light, maple-syrup, mediterranean, non-knead, non-knead easy, noodles, okonomiyaki, olives, olives,, pancakes, pasta, peanutbutter, puff-pastry, quick comfort, quick, rice, salad, sesame-paste, sicillian, simple, smoky, snack, soup, spicy, summer, sweet-potato, taco, tandoori, texmex, tikka-masala, time-consuming, tofu, traditional, wrap
   tagsene bør være separert med komma.
 
+  Både kategori og tags skal være omgitt av firkantparantes, som vist i eksempelet under.
+
   Du kan bruke scrape_content funksjonen til å hente ut tittel, beskrivelse og bilde-URL fra nettsiden.
 
-  Når du har generert markdown innholdet vil jeg at du lagrer det i en fil i _posts mappen med navn på formatet ÅÅÅÅ-MM-DD-tittel.md og committer det til repoet med en commit melding som "Add new recipe: Tittel på oppskrift". push deretter endringene til origin main.
+  Dersom oppskriften inneholder kjøtt kan du gjerne legge inn en kommentar i markdown filen med hva det eventuelt kan erstattes med for en vegetarisk versjon.
+
+  Når du har generert markdown innholdet vil jeg at du lagrer det i en fil i _posts mappen med navn på formatet ÅÅÅÅ-MM-DD-tittel.md
   Oppskriften skal være på formatet:
 
 ---
@@ -55,7 +59,7 @@ path: <Bilde-URL(image_first)>
 
     Please create a markdown file in the _posts folder with the format YYYY-MM-DD-title.md using this data.
     Use the title, description, and image URL from above to fill in the template.
-    After creating the file, commit it with message "Add new recipe: {site_title}" and push to origin main."""
+"""
 
 
 if __name__ == "__main__":

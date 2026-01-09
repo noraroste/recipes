@@ -5,7 +5,7 @@ categories: [Fish]
 tags: [quick, easy, curry]
 toc: false
 image:
-  path: None
+  path: https://www.godfisk.no/globalassets/3iuka/godfisk/torsk/torsk-rod-curry.jpg?width=3280&height=1620&transform=downFill&hash=184c7c4c9b691328c56c8f2f291b993b
 ---
 
 ## Rod curry med torsk  Oppskrift - Godfisk

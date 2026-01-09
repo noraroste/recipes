@@ -5,7 +5,7 @@ categories: [Pasta]
 tags: [pasta, quick, simple, italian, garlic]
 toc: false
 image:
-  path: https://img.godt.no/w4000/plain/tags/02/024ff350-8619-4e39-b406-dd79d8f4f2f0
+  path: https://img.godt.no/w2000/plain/recipes/96/965f8f10-5eb5-461d-9250-cd2c717f7161
 ---
 
 ## Aglio e olio

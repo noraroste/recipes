@@ -5,7 +5,7 @@ categories: [Pasta]
 tags: [quick, creamy]
 toc: false
 image:
-  path: https://cdn-yams.godt.no/api/v1/godt-recipe/images/a1/a1d5ab6d-dc64-4ec2-9ef7-3ffd35fd4b23?rule=w2000_auto
+  path: https://img.godt.no/w2000/plain/recipes/a1/a1d5ab6d-dc64-4ec2-9ef7-3ffd35fd4b23
 ---
 
 ## Sitronpasta med ricotta - Kjapp og god vegetarmiddag  Oppskrift

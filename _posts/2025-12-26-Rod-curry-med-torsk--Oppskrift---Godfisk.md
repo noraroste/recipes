@@ -1,8 +1,8 @@
 ---
 title: Rod curry med torsk  Oppskrift - Godfisk
 date: 2025-12-26
-categories: Fish
-tags: quick easy curry
+categories: [Fish]
+tags: [quick, easy, curry]
 toc: false
 image:
   path: None

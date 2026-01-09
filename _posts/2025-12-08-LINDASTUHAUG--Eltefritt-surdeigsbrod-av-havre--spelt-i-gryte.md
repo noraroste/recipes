@@ -1,8 +1,8 @@
 ---
-title: LINDASTUHAUG  Eltefritt surdeigsbrod av havre  spelt i gryte
+title: Eltefritt surdeigsbrod av havre  spelt i gryte
 date: 2025-12-08
 categories: [Bread]
-tags: [breakfast non-knead simple]
+tags: [breakfast, non-knead, simple]
 toc: false
 image:
   path: https://cdn.sanity.io/images/w69fde7v/production/aeed19be51eb000066c7c953550aeaba68a171e8-1010x1370.jpg?w=800&fm=webp&q=75&auto=format

@@ -1,8 +1,8 @@
 ---
 title: Authentic Vegan Larb Salad with Mushrooms  Tofu
 date: 2025-09-22
-categories: Thai
-tags: fresh, citrus
+categories: [Thai]
+tags: [fresh, citrus]
 toc: false
 image:
   path: https://maddysavenue.com/wp-content/uploads/2021/03/IMG_8811-1.png

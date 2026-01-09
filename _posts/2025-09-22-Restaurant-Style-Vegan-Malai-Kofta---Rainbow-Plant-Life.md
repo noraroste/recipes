@@ -1,8 +1,8 @@
 ---
 title: Restaurant-Style Vegan Malai Kofta - Rainbow Plant Life
 date: 2025-09-22
-categories: Indian
-tags: creamy, comforr
+categories: [Indian]
+tags: [creamy, comfort]
 toc: false
 image:
   path: https://rainbowplantlife.com/wp-content/uploads/2020/11/malaikoftamacro281of129.jpg

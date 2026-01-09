@@ -1,8 +1,8 @@
 ---
 title: Fiskebollegrateng
 date: 2025-09-22
-categories: Fish
-tags: traditional, left-overs, comfort
+categories: [Fish]
+tags: [traditional, left-overs, comfort]
 toc: false
 image:
   path: https://img.godt.no/w2000/plain/recipes/fiskebollegrateng

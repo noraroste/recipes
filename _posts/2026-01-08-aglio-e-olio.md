@@ -1,8 +1,8 @@
 ---
 title: Aglio e olio
 date: 2026-01-08
-categories: Pasta
-tags: pasta, quick, simple, italian, garlic
+categories: [Pasta]
+tags: [pasta, quick, simple, italian, garlic]
 toc: false
 image:
   path: https://img.godt.no/w4000/plain/tags/02/024ff350-8619-4e39-b406-dd79d8f4f2f0

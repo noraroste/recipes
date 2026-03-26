@@ -214,7 +214,7 @@ title: Add Recipe
 
   // --- Init ---
 
-  document.addEventListener('DOMContentLoaded', () => {
+  function init() {
     document.getElementById('login-btn').addEventListener('click', loginWithGitHub);
     document.getElementById('logout-btn').addEventListener('click', (e) => { e.preventDefault(); logout(); });
     document.getElementById('recipe-form').addEventListener('submit', submitRecipe);
@@ -230,5 +230,11 @@ title: Add Recipe
     } else {
       handleOAuthCallback();
     }
-  });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 </script>

@@ -20,6 +20,15 @@ def clean_title(title):
 
   return title
 
+
+def title_to_slug(title):
+  slug = clean_title(title)
+  slug = slug.lower()
+  slug = re.sub(r'[\s_]+', '-', slug)
+  slug = re.sub(r'-+', '-', slug)
+  slug = slug.strip('-')
+  return slug
+
 def main():
   # Create argument parser
   parser = argparse.ArgumentParser(description='Create a blog post from a URL')
@@ -54,7 +63,7 @@ def main():
   cleaned_title = clean_title(site_title)
   today = date.today()
   formatted_date = today.strftime("%Y-%m-%d")
-  file_name = formatted_date + "-" + cleaned_title.replace(" ", "-") + ".md"
+  file_name = formatted_date + "-" + title_to_slug(site_title) + ".md"
   if debug:
     print(f"File name: {file_name}")
     print(f"Title: {cleaned_title}")

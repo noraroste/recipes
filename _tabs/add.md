@@ -232,9 +232,23 @@ title: Add Recipe
     }
   }
 
+  function tryInit() {
+    if (document.getElementById('login-btn')) {
+      init();
+    } else {
+      const observer = new MutationObserver(() => {
+        if (document.getElementById('login-btn')) {
+          observer.disconnect();
+          init();
+        }
+      });
+      observer.observe(document.body, { childList: true, subtree: true });
+    }
+  }
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('DOMContentLoaded', tryInit);
   } else {
-    init();
+    tryInit();
   }
 </script>

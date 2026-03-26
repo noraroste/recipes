@@ -69,7 +69,18 @@ def check_rendered_image_size(img):
   return src, True
 
 
+def find_og_image(soup):
+  og_image = soup.find('meta', attrs={'property': 'og:image'})
+  if og_image:
+    return og_image.get('content')
+  return None
+
+
 def find_first_image(soup, debug=False):
+  og_image = find_og_image(soup)
+  if og_image:
+    return og_image
+
   # Images to check
   images = soup.find_all('img')
   if debug:

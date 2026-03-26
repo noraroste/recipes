@@ -21,7 +21,7 @@ title: Add Recipe
 
       <div class="mb-3">
         <label for="category" class="form-label fw-bold">Category</label>
-        <select id="category" class="form-select">
+        <select id="category" class="form-control">
           <option value="">-- Log in to load categories --</option>
         </select>
         <input type="text" id="new-category" class="form-control mt-2" placeholder="New category name" style="display:none" />

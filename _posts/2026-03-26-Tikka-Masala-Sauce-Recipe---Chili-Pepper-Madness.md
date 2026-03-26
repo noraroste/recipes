@@ -5,7 +5,7 @@ categories: [Indian]
 tags: [comfort, versatile]
 toc: false
 image:
-  path: None
+  path: https://www.chilipeppermadness.com/wp-content/uploads/2024/02/Chicken-Tikka-Masala-Sauce-Recipe1.jpg
 ---
 
 ## Tikka Masala Sauce Recipe - Chili Pepper Madness

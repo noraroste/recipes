@@ -47,8 +47,6 @@ title: Add Recipe
   const REPO_OWNER = 'noraroste';
   const REPO_NAME = 'recipies';
 
-  // --- Auth ---
-
   function loginWithGitHub() {
     const state = crypto.randomUUID();
     sessionStorage.setItem('oauth_state', state);
@@ -113,8 +111,6 @@ title: Add Recipe
     document.getElementById('username-display').textContent = username;
   }
 
-  // --- Form ---
-
   function handleCategoryChange() {
     const select = document.getElementById('category');
     const newCatInput = document.getElementById('new-category');
@@ -175,8 +171,6 @@ title: Add Recipe
     document.getElementById('status-msg').textContent = msg;
   }
 
-  // --- Categories ---
-
   async function loadCategories() {
     const select = document.getElementById('category');
     try {
@@ -211,8 +205,6 @@ title: Add Recipe
     newOpt.textContent = '+ New category...';
     select.appendChild(newOpt);
   }
-
-  // --- Init ---
 
   function init() {
     document.getElementById('login-btn').addEventListener('click', loginWithGitHub);

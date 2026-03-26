@@ -6,6 +6,7 @@ spec = importlib.util.spec_from_file_location(
 mod = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(mod)
 title_to_slug = mod.title_to_slug
+output_path = mod.output_path
 
 
 def test_lowercase():
@@ -26,3 +27,7 @@ def test_norwegian_characters():
 
 def test_spaces_become_dashes():
     assert title_to_slug('quick garlic chili noodles') == 'quick-garlic-chili-noodles'
+
+
+def test_output_path_includes_year_subfolder():
+    assert output_path('../_posts/', '2026-03-26') == '../_posts/2026/'

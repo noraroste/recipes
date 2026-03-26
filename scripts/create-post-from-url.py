@@ -1,5 +1,6 @@
 from datetime import date
 import argparse
+import os
 
 from scrape_content import scrape_meta_content
 
@@ -19,6 +20,11 @@ def clean_title(title):
   title = re.sub(r'[^\w\s-]', '', title).strip()
 
   return title
+
+
+def output_path(base_path, formatted_date):
+  year = formatted_date[:4]
+  return f"{base_path}{year}/"
 
 
 def title_to_slug(title):
@@ -64,6 +70,8 @@ def main():
   today = date.today()
   formatted_date = today.strftime("%Y-%m-%d")
   file_name = formatted_date + "-" + title_to_slug(site_title) + ".md"
+  path = output_path(path, formatted_date)
+  os.makedirs(path, exist_ok=True)
   if debug:
     print(f"File name: {file_name}")
     print(f"Title: {cleaned_title}")

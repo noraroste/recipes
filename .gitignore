@@ -30,3 +30,6 @@ assets/js/dist
 scripts/venv
 scripts/__pycache__
 
+# Cloudflare Workers
+cloudflare-worker/.wrangler
+

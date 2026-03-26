@@ -7,38 +7,19 @@ title: Add Recipe
 <div id="app">
   <div id="login-section">
     <p>You need to log in with GitHub to add a recipe.</p>
-    <button id="login-btn" onclick="loginWithGitHub()">Log in with GitHub</button>
+    <button id="login-btn">Log in with GitHub</button>
   </div>
 
   <div id="form-section" style="display:none">
-    <p>Logged in as <strong id="username-display"></strong>. <a href="#" onclick="logout()">Log out</a></p>
+    <p>Logged in as <strong id="username-display"></strong>. <a href="#" id="logout-btn">Log out</a></p>
 
-    <form id="recipe-form" onsubmit="submitRecipe(event)">
+    <form id="recipe-form">
       <label for="url">Recipe URL</label>
       <input type="url" id="url" required placeholder="https://..." />
 
       <label for="category">Category</label>
-      <select id="category" onchange="handleCategoryChange()">
-        <option value="">-- Select category --</option>
-        <option>American</option>
-        <option>AsianFusion</option>
-        <option>Bread</option>
-        <option>Dessert</option>
-        <option>Filipino</option>
-        <option>Fish</option>
-        <option>Indian</option>
-        <option>Italian</option>
-        <option>Japanese</option>
-        <option>Korean</option>
-        <option>Mexican</option>
-        <option>Pasta</option>
-        <option>Pie</option>
-        <option>Salad</option>
-        <option>Soup</option>
-        <option>Stew</option>
-        <option>TexMex</option>
-        <option>Thai</option>
-        <option value="__new__">+ New category...</option>
+      <select id="category">
+        <option value="">-- Loading categories... --</option>
       </select>
       <input type="text" id="new-category" placeholder="New category name" style="display:none; margin-top:0.5rem" />
 
@@ -194,7 +175,51 @@ title: Add Recipe
     document.getElementById('status-msg').textContent = msg;
   }
 
+  // --- Categories ---
+
+  async function loadCategories() {
+    const select = document.getElementById('category');
+    try {
+      const res = await fetch(
+        `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/git/trees/main?recursive=1`
+      );
+      const tree = await res.json();
+      const postFiles = tree.tree.filter(f => f.path.startsWith('_posts/') && f.path.endsWith('.md'));
+
+      const categories = new Set();
+      await Promise.all(postFiles.map(async file => {
+        const r = await fetch(
+          `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main/${file.path}`
+        );
+        const text = await r.text();
+        const match = text.match(/^categories:\s*\[([^\]]+)\]/m);
+        if (match) match[1].split(',').forEach(c => categories.add(c.trim()));
+      }));
+
+      select.innerHTML = '<option value="">-- Select category --</option>';
+      [...categories].sort().forEach(cat => {
+        const opt = document.createElement('option');
+        opt.value = cat;
+        opt.textContent = cat;
+        select.appendChild(opt);
+      });
+    } catch {
+      select.innerHTML = '<option value="">-- Could not load categories --</option>';
+    }
+    const newOpt = document.createElement('option');
+    newOpt.value = '__new__';
+    newOpt.textContent = '+ New category...';
+    select.appendChild(newOpt);
+  }
+
   // --- Init ---
+
+  document.getElementById('login-btn').addEventListener('click', loginWithGitHub);
+  document.getElementById('logout-btn').addEventListener('click', (e) => { e.preventDefault(); logout(); });
+  document.getElementById('recipe-form').addEventListener('submit', submitRecipe);
+  document.getElementById('category').addEventListener('change', handleCategoryChange);
+
+  loadCategories();
 
   const savedToken = sessionStorage.getItem('github_token');
   const savedUser = sessionStorage.getItem('github_username');

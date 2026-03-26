@@ -94,7 +94,6 @@ title: Add Recipe
     const user = await userRes.json();
     sessionStorage.setItem('github_username', user.login);
 
-    // Clean up URL
     window.history.replaceState({}, '', window.location.pathname);
 
     showForm(user.login);

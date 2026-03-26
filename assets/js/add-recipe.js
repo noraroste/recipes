@@ -64,6 +64,7 @@ async function showForm(username) {
   document.getElementById('login-section').style.display = 'none';
   document.getElementById('form-section').style.display = '';
   document.getElementById('username-display').textContent = username;
+  setStatus('');
   await loadCategories();
 }
 

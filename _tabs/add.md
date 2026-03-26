@@ -214,19 +214,21 @@ title: Add Recipe
 
   // --- Init ---
 
-  document.getElementById('login-btn').addEventListener('click', loginWithGitHub);
-  document.getElementById('logout-btn').addEventListener('click', (e) => { e.preventDefault(); logout(); });
-  document.getElementById('recipe-form').addEventListener('submit', submitRecipe);
-  document.getElementById('category').addEventListener('change', handleCategoryChange);
+  document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('login-btn').addEventListener('click', loginWithGitHub);
+    document.getElementById('logout-btn').addEventListener('click', (e) => { e.preventDefault(); logout(); });
+    document.getElementById('recipe-form').addEventListener('submit', submitRecipe);
+    document.getElementById('category').addEventListener('change', handleCategoryChange);
 
-  loadCategories();
+    loadCategories();
 
-  const savedToken = sessionStorage.getItem('github_token');
-  const savedUser = sessionStorage.getItem('github_username');
+    const savedToken = sessionStorage.getItem('github_token');
+    const savedUser = sessionStorage.getItem('github_username');
 
-  if (savedToken && savedUser) {
-    showForm(savedUser);
-  } else {
-    handleOAuthCallback();
-  }
+    if (savedToken && savedUser) {
+      showForm(savedUser);
+    } else {
+      handleOAuthCallback();
+    }
+  });
 </script>

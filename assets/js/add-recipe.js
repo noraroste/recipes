@@ -64,6 +64,28 @@ async function showForm(username) {
   document.getElementById('login-section').style.display = 'none';
   document.getElementById('form-section').style.display = '';
   document.getElementById('username-display').textContent = username;
+  setStatus('Checking repository access...');
+
+  const token = sessionStorage.getItem('github_token');
+  const permRes = await fetch(
+    `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/collaborators/${username}/permission`,
+    { headers: { Authorization: `Bearer ${token}` } }
+  );
+
+  if (!permRes.ok) {
+    setStatus('You do not have access to this repository. Contact the repo owner.');
+    document.getElementById('submit-btn').disabled = true;
+    return;
+  }
+
+  const permData = await permRes.json();
+  const level = permData.permission;
+  if (level !== 'write' && level !== 'admin' && level !== 'maintain') {
+    setStatus('You do not have write access to this repository. Contact the repo owner.');
+    document.getElementById('submit-btn').disabled = true;
+    return;
+  }
+
   setStatus('');
   await loadCategories();
 }

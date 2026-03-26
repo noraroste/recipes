@@ -7,38 +7,35 @@ title: Add Recipe
 <div id="app">
   <div id="login-section">
     <p>You need to log in with GitHub to add a recipe.</p>
-    <button id="login-btn">Log in with GitHub</button>
+    <button id="login-btn" class="btn btn-outline-primary">Log in with GitHub</button>
   </div>
 
   <div id="form-section" style="display:none">
     <p>Logged in as <strong id="username-display"></strong>. <a href="#" id="logout-btn">Log out</a></p>
 
     <form id="recipe-form">
-      <label for="url">Recipe URL</label>
-      <input type="url" id="url" required placeholder="https://..." />
+      <div class="mb-3">
+        <label for="url" class="form-label fw-bold">Recipe URL</label>
+        <input type="url" id="url" class="form-control" required placeholder="https://..." />
+      </div>
 
-      <label for="category">Category</label>
-      <select id="category">
-        <option value="">-- Log in to load categories --</option>
-      </select>
-      <input type="text" id="new-category" placeholder="New category name" style="display:none; margin-top:0.5rem" />
+      <div class="mb-3">
+        <label for="category" class="form-label fw-bold">Category</label>
+        <select id="category" class="form-select">
+          <option value="">-- Log in to load categories --</option>
+        </select>
+        <input type="text" id="new-category" class="form-control mt-2" placeholder="New category name" style="display:none" />
+      </div>
 
-      <label for="tags">Tags <small>(comma separated, e.g. quick, easy, vegetarian)</small></label>
-      <input type="text" id="tags" placeholder="quick, easy, vegetarian" />
+      <div class="mb-3">
+        <label for="tags" class="form-label fw-bold">Tags <small class="text-muted fw-normal">(comma separated, e.g. quick, easy, vegetarian)</small></label>
+        <input type="text" id="tags" class="form-control" placeholder="quick, easy, vegetarian" />
+      </div>
 
-      <button type="submit" id="submit-btn">Add recipe</button>
-      <p id="status-msg"></p>
+      <button type="submit" id="submit-btn" class="btn btn-outline-primary">Add recipe</button>
+      <p id="status-msg" class="mt-3 fst-italic text-muted"></p>
     </form>
   </div>
 </div>
-
-<style>
-  #app label { display: block; margin-top: 1rem; font-weight: bold; }
-  #app input[type="url"],
-  #app input[type="text"],
-  #app select { width: 100%; padding: 0.5rem; margin-top: 0.25rem; box-sizing: border-box; }
-  #app button { margin-top: 1.5rem; padding: 0.6rem 1.5rem; cursor: pointer; }
-  #status-msg { margin-top: 1rem; font-style: italic; }
-</style>
 
 <script src="{{ '/assets/js/add-recipe.js' | relative_url }}"></script>

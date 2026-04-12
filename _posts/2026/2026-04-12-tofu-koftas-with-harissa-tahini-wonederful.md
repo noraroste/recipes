@@ -5,7 +5,7 @@ categories: [MiddleEastern]
 tags: [tofu, vegan, baked, harissa, tahini, flatbread]
 toc: false
 image:
-  path:
+  path: /images/tofu-koftas-with-harissa-tahini.jpeg
 ---
 
 ## Tofu Koftas with Harissa Tahini

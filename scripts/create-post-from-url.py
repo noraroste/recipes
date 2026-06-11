@@ -43,6 +43,28 @@ def build_image_block(image_url):
   return f"image:\n  path: {image_url}\n"
 
 
+def build_recipe_file(slug, title, url, ingredients, instructions):
+  if ingredients:
+    ing_yaml = '\n'.join(f'  - "{i}"' for i in ingredients)
+    ins_yaml = '\n'.join(f'  - "{s}"' for s in instructions)
+    status = "auto"
+  else:
+    ing_yaml = '  # - "Legg til ingredienser her"'
+    ins_yaml = '  # - "Legg til fremgangsmåte her"'
+    status = "template"
+  return f"""---
+title: {title}
+source_url: {url}
+status: {status}
+ingredients:
+{ing_yaml}
+instructions:
+{ins_yaml}
+notes: ""
+---
+"""
+
+
 def title_to_slug(title):
   slug = clean_title(title)
   slug = slug.lower()
@@ -59,6 +81,7 @@ def main():
   parser.add_argument('--categories', default='[]', help='Categories in format "[Cat1, Cat2]"')
   parser.add_argument('--tags', default='[]', help='Tags in format "[tag1, tag2]"' )
   parser.add_argument('--output-path', default='../_posts/', help='Path to save the markdown file')
+  parser.add_argument('--recipes-path', default='../_recipes/', help='Path to save the recipe file')
   parser.add_argument('--debug', default='false', help='Enable debug mode')
 
   # Parse arguments
@@ -70,6 +93,7 @@ def main():
   categories = args.categories
   tags = args.tags
   path = args.output_path
+  recipes_path = args.recipes_path
   debug = args.debug.lower() == 'true'
 
   if input_file:
@@ -80,12 +104,13 @@ def main():
       categories = lines[1].strip()
       tags = normalize_tags(lines[2].strip())
 
-  site_title, recipe_description, image_first = scrape_meta_content(url, debug)
+  site_title, recipe_description, image_first, ingredients, instructions = scrape_meta_content(url, debug)
 
   cleaned_title = clean_title(site_title)
+  slug = title_to_slug(site_title)
   today = date.today()
   formatted_date = today.strftime("%Y-%m-%d")
-  file_name = formatted_date + "-" + title_to_slug(site_title) + ".md"
+  file_name = formatted_date + "-" + slug + ".md"
   path = output_path(path, formatted_date)
   os.makedirs(path, exist_ok=True)
   if debug:
@@ -94,7 +119,6 @@ def main():
     print(f"Description: {recipe_description}")
     print(f"Image URL: {image_first}")
 
-  # Create the markdown content
   markdown_content = \
     f"""---
 title: {cleaned_title}
@@ -102,6 +126,7 @@ date: {formatted_date}
 categories: {categories}
 tags: {tags}
 toc: false
+recipe_slug: {slug}
 {build_image_block(image_first)}---
 
 ## {cleaned_title}
@@ -110,10 +135,16 @@ toc: false
 
 [Link to recipe]({url})
 
+[Se full oppskrift](/recipes/{slug}/)
+
   """
-  # Write the markdown content to a file
   with open(path + file_name, 'w', encoding='utf-8') as file:
       file.write(markdown_content)
+
+  os.makedirs(recipes_path, exist_ok=True)
+  with open(recipes_path + slug + ".md", 'w', encoding='utf-8') as file:
+      file.write(build_recipe_file(slug, cleaned_title, url, ingredients, instructions))
+  print(f"Recipe file: {'auto' if ingredients else 'template'} → {recipes_path}{slug}.md")
 
 
 if __name__ == "__main__":

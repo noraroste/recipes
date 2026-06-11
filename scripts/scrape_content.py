@@ -1,3 +1,4 @@
+import json
 import requests
 import urllib3
 from bs4 import BeautifulSoup
@@ -50,4 +51,36 @@ def scrape_meta_content(url, debug=False):
   except Exception as e:
     print(f"An error occurred: {e}")
 
-  return title.text, content, encoded_image
+  ingredients, instructions = scrape_recipe_jsonld(soup, debug)
+
+  return title.text, content, encoded_image, ingredients, instructions
+
+
+def scrape_recipe_jsonld(soup, debug=False):
+  for script in soup.find_all('script', type='application/ld+json'):
+    try:
+      data = json.loads(script.string)
+    except (json.JSONDecodeError, TypeError):
+      continue
+
+    recipe = None
+    if isinstance(data, dict):
+      if data.get('@type') == 'Recipe':
+        recipe = data
+      elif '@graph' in data:
+        recipe = next((item for item in data['@graph'] if item.get('@type') == 'Recipe'), None)
+    elif isinstance(data, list):
+      recipe = next((item for item in data if item.get('@type') == 'Recipe'), None)
+
+    if recipe:
+      ingredients = recipe.get('recipeIngredient') or []
+      raw_instructions = recipe.get('recipeInstructions') or []
+      instructions = [
+        item['text'] if isinstance(item, dict) else item
+        for item in raw_instructions
+      ]
+      if debug:
+        print(f"JSON-LD: found {len(ingredients)} ingredients, {len(instructions)} steps")
+      return ingredients, instructions
+
+  return None, None

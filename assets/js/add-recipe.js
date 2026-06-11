@@ -173,18 +173,31 @@ function toggleTag(tag) {
   renderTagChips();
 }
 
-function renderTagChips() {
+function renderTagChips(suggested = []) {
   const selected = getSelectedTags();
   document.querySelectorAll('#tag-chips .tag-chip').forEach(chip => {
     const tag = chip.dataset.tag;
-    if (selected.includes(tag)) {
-      chip.classList.add('btn-primary');
-      chip.classList.remove('btn-outline-secondary');
-    } else {
-      chip.classList.remove('btn-primary');
-      chip.classList.add('btn-outline-secondary');
-    }
+    const isSelected = selected.includes(tag);
+    const isSuggested = suggested.includes(tag);
+    chip.classList.toggle('btn-primary', isSelected);
+    chip.classList.toggle('btn-success', !isSelected && isSuggested);
+    chip.classList.toggle('btn-outline-secondary', !isSelected && !isSuggested);
   });
+}
+
+async function suggestTags(recipeUrl, allTags) {
+  const token = sessionStorage.getItem('github_token');
+  if (!token || !recipeUrl || allTags.length === 0) return [];
+  try {
+    const params = new URLSearchParams({ url: recipeUrl, tags: allTags.join(',') });
+    const res = await fetch(`${WORKER_URL}/suggest-tags?${params}`, {
+      headers: { Authorization: `Bearer ${token}` },
+    });
+    const data = await res.json();
+    return data.suggested || [];
+  } catch {
+    return [];
+  }
 }
 
 async function loadCategories() {
@@ -221,9 +234,10 @@ async function loadCategories() {
       select.appendChild(opt);
     });
 
+    const allTags = [...tags].sort();
     const chipsContainer = document.getElementById('tag-chips');
     chipsContainer.innerHTML = '';
-    [...tags].sort().forEach(tag => {
+    allTags.forEach(tag => {
       const btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'tag-chip btn btn-sm btn-outline-secondary';
@@ -233,7 +247,21 @@ async function loadCategories() {
       chipsContainer.appendChild(btn);
     });
     document.getElementById('tag-suggestions').style.display = '';
-    document.getElementById('tags').addEventListener('input', renderTagChips);
+    document.getElementById('tags').addEventListener('input', () => renderTagChips());
+
+    const urlInput = document.getElementById('url');
+    urlInput.addEventListener('blur', async () => {
+      const recipeUrl = urlInput.value.trim();
+      if (!recipeUrl) return;
+      document.getElementById('suggest-status').textContent = 'Suggesting tags...';
+      const suggested = await suggestTags(recipeUrl, allTags);
+      document.getElementById('suggest-status').textContent = '';
+      if (suggested.length === 0) return;
+      const current = getSelectedTags();
+      const toAdd = suggested.filter(t => !current.includes(t));
+      setSelectedTags([...current, ...toAdd]);
+      renderTagChips(suggested);
+    });
   } catch {
     select.innerHTML = '<option value="">-- Could not load categories --</option>';
   }

@@ -31,7 +31,7 @@ title: Add Recipe
         <label for="tags" class="form-label fw-bold">Tags <small class="text-muted fw-normal">(comma separated, e.g. quick, easy, vegetarian)</small></label>
         <input type="text" id="tags" class="form-control" placeholder="quick, easy, vegetarian" />
         <div id="tag-suggestions" class="mt-2" style="display:none">
-          <small class="text-muted">Existing tags:</small>
+          <small class="text-muted">Existing tags: <span id="suggest-status" class="fst-italic"></span></small>
           <div id="tag-chips" class="d-flex flex-wrap gap-1 mt-1"></div>
         </div>
       </div>

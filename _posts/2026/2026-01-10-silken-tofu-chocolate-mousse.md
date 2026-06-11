@@ -13,5 +13,7 @@ recipe_slug: silken-tofu-chocolate-mousse
 
 Silken Tofu Chocolate Mousse - A super easy and healthy dessert or snack, ready in 5 minutes! Gluten-free, dairy-free, egg-free, and vegan
 
-[Link to recipe](https://aseasyasapplepie.com/silken-tofu-chocolate-mousse/) | [Se full oppskrift](/recipes/silken-tofu-chocolate-mousse/)
+[Link to recipe](https://aseasyasapplepie.com/silken-tofu-chocolate-mousse/)
+
+[Se full oppskrift](/recipes/silken-tofu-chocolate-mousse/)
 

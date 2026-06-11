@@ -12,5 +12,7 @@ recipe_slug: lindastuhaug-alt-i-ett-krema-kyllinggryte-med-quinoa
 
 Hei! Idag prøver vi oss på ein ny oppskrift på alt-i-ett gryte! Prinsippet her er det samme som alt-i-ett alltid har vore: du har alle ingrediensane i ei gryte, og noko ekstra tilbehør er ikkje nødvendig. Slike gryter er både raske og enkle å lage, krever lite oppvask og du setter heile kjelen på bordet til …
 
-[Link to recipe](https://lindastuhaug.no/alt-ett-krema-kyllinggryte-med-quinoa) | [Se full oppskrift](/recipes/lindastuhaug-alt-i-ett-krema-kyllinggryte-med-quinoa/)
+[Link to recipe](https://lindastuhaug.no/alt-ett-krema-kyllinggryte-med-quinoa)
+
+[Se full oppskrift](/recipes/lindastuhaug-alt-i-ett-krema-kyllinggryte-med-quinoa/)
 

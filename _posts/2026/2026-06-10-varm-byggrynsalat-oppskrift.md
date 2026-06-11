@@ -13,6 +13,8 @@ recipe_slug: varm-byggrynsalat-oppskrift
 
 Byggrynsalat med stekt gresskar og fetaost smaker nydelig. Bygg er dessuten en kornsort vi godt kan spise mer av, og som egner seg til spennende, smakrike retter. 
 
-[Link to recipe](https://www.matprat.no/oppskrifter/gjester/varm-byggrynsalat/#instructions) | [Se full oppskrift](/recipes/varm-byggrynsalat-oppskrift/)
+[Link to recipe](https://www.matprat.no/oppskrifter/gjester/varm-byggrynsalat/#instructions)
+
+[Se full oppskrift](/recipes/varm-byggrynsalat-oppskrift/)
 
   

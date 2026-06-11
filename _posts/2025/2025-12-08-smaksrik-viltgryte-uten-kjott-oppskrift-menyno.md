@@ -17,6 +17,8 @@ Stekt vegetarkjøttdeig kan erstattes med ovnsstekt røkt tofu, og brunostrester
 
 Kan vurdere sukkerkulør for dypere farge.
 
-[Link to recipe](https://meny.no/oppskrifter/vegetar/vegetar-viltgryte) | [Se full oppskrift](/recipes/smaksrik-viltgryte-uten-kjott-oppskrift-menyno/)
+[Link to recipe](https://meny.no/oppskrifter/vegetar/vegetar-viltgryte)
+
+[Se full oppskrift](/recipes/smaksrik-viltgryte-uten-kjott-oppskrift-menyno/)
 
   

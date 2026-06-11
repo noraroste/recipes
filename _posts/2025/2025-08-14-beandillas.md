@@ -10,7 +10,9 @@ recipe_slug: beandillas
 ---
 ## Bønnedillas
 
-Oppskrift av Emilie Nereng [Link to recipe](https://www.instagram.com/emilienutrition/p/BzOhfvKpUuE/) | [Se full oppskrift](/recipes/beandillas/)
+Oppskrift av Emilie Nereng [Link to recipe](https://www.instagram.com/emilienutrition/p/BzOhfvKpUuE/)
+
+[Se full oppskrift](/recipes/beandillas/)
 
 ![Bønnedillas](/images/beandillas.jpeg)
 

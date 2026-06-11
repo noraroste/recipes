@@ -13,5 +13,7 @@ recipe_slug: aglio-e-olio
 
 Denne pastaen er veldig enkel og rask å lage. Få oppskriften her!
 
-[Link to recipe](https://www.godt.no/oppskrifter/rask/11576/aglio-e-olio) | [Se full oppskrift](/recipes/aglio-e-olio/)
+[Link to recipe](https://www.godt.no/oppskrifter/rask/11576/aglio-e-olio)
+
+[Se full oppskrift](/recipes/aglio-e-olio/)
 

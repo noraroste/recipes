@@ -13,5 +13,7 @@ image:
 
 This vegan Lentil Bolognese is an easy, yet gourmet meal made with 10 pantry staple ingredients. It's deceptively meaty and ultra-satisfying!
 
-[Link to recipe](https://rainbowplantlife.com/10-ingredient-vegan-red-lentil-bolognese/) | [Se full oppskrift](/recipes/lentil-bolognese-rainbow-plant-life/)
+[Link to recipe](https://rainbowplantlife.com/10-ingredient-vegan-red-lentil-bolognese/)
+
+[Se full oppskrift](/recipes/lentil-bolognese-rainbow-plant-life/)
 

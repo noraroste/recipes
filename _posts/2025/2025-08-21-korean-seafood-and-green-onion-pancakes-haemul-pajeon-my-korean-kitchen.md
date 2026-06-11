@@ -13,6 +13,8 @@ recipe_slug: korean-seafood-and-green-onion-pancakes-haemul-pajeon-my-korean-kit
 
   Savory and delicious Korean pajeon recipe. Learn how to make Korean seafood and green onion pancakes, "Haemul Pajeon" at home. It's so easy!
 
-  [Link to recipe](https://mykoreankitchen.com/korean-seafood-and-green-onion-pancakes-haemul-pajeon/) | [Se full oppskrift](/recipes/korean-seafood-and-green-onion-pancakes-haemul-pajeon-my-korean-kitchen/)
+  [Link to recipe](https://mykoreankitchen.com/korean-seafood-and-green-onion-pancakes-haemul-pajeon/)
+
+[Se full oppskrift](/recipes/korean-seafood-and-green-onion-pancakes-haemul-pajeon-my-korean-kitchen/)
 
   

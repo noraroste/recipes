@@ -13,6 +13,8 @@ recipe_slug: hurrycurry-gronn-kikertgryte-i-en-fei-vegetarentusiastno
 
 En nydelig currygryte med kikerter og kokosmelk. En skikkelig smaksbombe som er superrask å lage, perfekt hverdagsmat!
 
-[Link to recipe](https://vegetarentusiast.no/hurrycurry/) | [Se full oppskrift](/recipes/hurrycurry-gronn-kikertgryte-i-en-fei-vegetarentusiastno/)
+[Link to recipe](https://vegetarentusiast.no/hurrycurry/)
+
+[Se full oppskrift](/recipes/hurrycurry-gronn-kikertgryte-i-en-fei-vegetarentusiastno/)
 
 

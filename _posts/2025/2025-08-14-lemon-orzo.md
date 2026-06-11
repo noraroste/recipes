@@ -10,4 +10,6 @@ recipe_slug: lemon-orzo
 ---
 ## Lemon Orzo Pasta Salad
 
-[Link to recipe](https://rainbowplantlife.com/lemon-orzo-pasta-salad/) | [Se full oppskrift](/recipes/lemon-orzo/)
+[Link to recipe](https://rainbowplantlife.com/lemon-orzo-pasta-salad/)
+
+[Se full oppskrift](/recipes/lemon-orzo/)

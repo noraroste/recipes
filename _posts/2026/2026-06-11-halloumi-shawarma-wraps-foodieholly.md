@@ -13,6 +13,8 @@ recipe_slug: halloumi-shawarma-wraps-foodieholly
 
 These Halloumi shawarma wraps are crispy, creamy, herby and loaded with warm Middle Eastern inspired spices that make every bite exciting.
 
-[Link to recipe](https://foodieholly.com/2026/01/20/halloumi-shawarma-wraps/) | [Se full oppskrift](/recipes/halloumi-shawarma-wraps-foodieholly/)
+[Link to recipe](https://foodieholly.com/2026/01/20/halloumi-shawarma-wraps/)
+
+[Se full oppskrift](/recipes/halloumi-shawarma-wraps-foodieholly/)
 
   

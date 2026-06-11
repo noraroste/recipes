@@ -13,6 +13,8 @@ recipe_slug: vegan-jajangmyeon-korean-black-bean-sauce-noodles-my-plantiful-cook
 
   This Korean-inspired jjajangmyeon will be your next favorite noodle dish! Although delicious, this dish is simple to put together and ready in 30 minutes.
 
-  [Link to recipe](https://www.myplantifulcooking.com/vegan-jajangmyeon-black-bean-noodles/) | [Se full oppskrift](/recipes/vegan-jajangmyeon-korean-black-bean-sauce-noodles-my-plantiful-cooking/)
+  [Link to recipe](https://www.myplantifulcooking.com/vegan-jajangmyeon-black-bean-noodles/)
+
+[Se full oppskrift](/recipes/vegan-jajangmyeon-korean-black-bean-sauce-noodles-my-plantiful-cooking/)
 
   

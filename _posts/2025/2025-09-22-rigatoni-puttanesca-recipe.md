@@ -11,4 +11,6 @@ recipe_slug: rigatoni-puttanesca-recipe
 
 ## Rigatoni Puttanesca
 
-[Link to recipe](https://lavitapazza.commerceowl.com/recipe/rigatoni-puttanesca) | [Se full oppskrift](/recipes/rigatoni-puttanesca-recipe/)
+[Link to recipe](https://lavitapazza.commerceowl.com/recipe/rigatoni-puttanesca)
+
+[Se full oppskrift](/recipes/rigatoni-puttanesca-recipe/)

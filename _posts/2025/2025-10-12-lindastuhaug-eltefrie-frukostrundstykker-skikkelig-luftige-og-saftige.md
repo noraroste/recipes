@@ -13,6 +13,8 @@ recipe_slug: lindastuhaug-eltefrie-frukostrundstykker-skikkelig-luftige-og-safti
 
 det skal vere en opptur med sunn mat!
 
-[Link to recipe](https://lindastuhaug.no/eltefrie-frukostrundstykker-skikkelig-luftige-og-saftige) | [Se full oppskrift](/recipes/lindastuhaug-eltefrie-frukostrundstykker-skikkelig-luftige-og-saftige/)
+[Link to recipe](https://lindastuhaug.no/eltefrie-frukostrundstykker-skikkelig-luftige-og-saftige)
+
+[Se full oppskrift](/recipes/lindastuhaug-eltefrie-frukostrundstykker-skikkelig-luftige-og-saftige/)
 
   

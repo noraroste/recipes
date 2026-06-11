@@ -13,6 +13,8 @@ recipe_slug: ovnsbakt-torsk-med-nottelokk-sotpotetmos-og-soyasmor-trines-matblog
 
 Søtpotetmos er ypperlig tilbehør til hvit fisk. Kombinasjonen løftes ytterligere sammen med dette velsmakende soyasmøret og sprø aspargesbønner.
 
-[Link to recipe](https://trinesmatblogg.no/recipe/ovnsbakt-torsk-med-nottelokk-sotpotetmos-og-soyasmor/) | [Se full oppskrift](/recipes/ovnsbakt-torsk-med-nottelokk-sotpotetmos-og-soyasmor-trines-matblogg/)
+[Link to recipe](https://trinesmatblogg.no/recipe/ovnsbakt-torsk-med-nottelokk-sotpotetmos-og-soyasmor/)
+
+[Se full oppskrift](/recipes/ovnsbakt-torsk-med-nottelokk-sotpotetmos-og-soyasmor-trines-matblogg/)
 
   

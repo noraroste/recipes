@@ -10,4 +10,6 @@ recipe_slug: loaded-veggie-nachos
 ---
 ## Loaded veggie nachos
 
-[Link to recipe](https://cookieandkate.com/loaded-veggie-nachos-recipe/) | [Se full oppskrift](/recipes/loaded-veggie-nachos/)
+[Link to recipe](https://cookieandkate.com/loaded-veggie-nachos-recipe/)
+
+[Se full oppskrift](/recipes/loaded-veggie-nachos/)

@@ -13,6 +13,8 @@ recipe_slug: eltefri-focaccia-trines-matblogg
 
 Den eltefrie metoden er nå prøvd ut på foccacia, med stort hell! Enklere kan det ikke bli å bake brød! Godt brød! Jeg bakte dette brødet på hytta, og da er det…
 
-[Link to recipe](https://trinesmatblogg.no/recipe/eltefri-foccacia/) | [Se full oppskrift](/recipes/eltefri-focaccia-trines-matblogg/)
+[Link to recipe](https://trinesmatblogg.no/recipe/eltefri-foccacia/)
+
+[Se full oppskrift](/recipes/eltefri-focaccia-trines-matblogg/)
 
   

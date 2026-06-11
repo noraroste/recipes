@@ -13,6 +13,8 @@ recipe_slug: amerikanske-pannekaker-oppskrift-matprat
 
 American pancakes, eller hotcakes, er ekstra tykke pannekaker. Amerikanske pannekaker blir gjerne servert med lønnesirup.
 
-[Link to recipe](https://www.matprat.no/oppskrifter/kos/amerikanske-pannekaker/) | [Se full oppskrift](/recipes/amerikanske-pannekaker-oppskrift-matprat/)
+[Link to recipe](https://www.matprat.no/oppskrifter/kos/amerikanske-pannekaker/)
+
+[Se full oppskrift](/recipes/amerikanske-pannekaker-oppskrift-matprat/)
 
   

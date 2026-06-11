@@ -13,6 +13,8 @@ recipe_slug: sun-dried-tomato-roasted-vegetable-tart-pick-up-limes
 
   This tart transforms any table into a visual feast. The preparation may ask for a dash of dedication and patience, but the result is a stunning display of culinary artistry. Beneath the striking spiral of vegetables lies a creamy, sun-dried tomato and herb-infused filling that serves as the flavourful foundation of the dish.The intricate design is not just a feast for the eyes, but also a testament to the care that went into its creation.
 
-  [Link to recipe](https://www.pickuplimes.com/recipe/sun-dried-tomato-roasted-vegetable-tart-309) | [Se full oppskrift](/recipes/sun-dried-tomato-roasted-vegetable-tart-pick-up-limes/)
+  [Link to recipe](https://www.pickuplimes.com/recipe/sun-dried-tomato-roasted-vegetable-tart-309)
+
+[Se full oppskrift](/recipes/sun-dried-tomato-roasted-vegetable-tart-pick-up-limes/)
 
   

@@ -13,6 +13,8 @@ recipe_slug: 10-ingredient-creamy-vegan-pantry-pasta-rainbow-plant-life
 
 This 10-Ingredient Creamy Vegan Pantry Pasta is creamy and indulgent yet healthy. A 10-ingredient pasta dinner made with just pantry staples!
 
-[Link to recipe](https://rainbowplantlife.com/vegan-pantry-pasta/) | [Se full oppskrift](/recipes/10-ingredient-creamy-vegan-pantry-pasta-rainbow-plant-life/)
+[Link to recipe](https://rainbowplantlife.com/vegan-pantry-pasta/)
+
+[Se full oppskrift](/recipes/10-ingredient-creamy-vegan-pantry-pasta-rainbow-plant-life/)
 
   

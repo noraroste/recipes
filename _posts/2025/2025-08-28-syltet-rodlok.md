@@ -13,4 +13,6 @@ recipe_slug: syltet-rodlok
 
 Syltet rødløk smaker nydelig som tilbehør til kjøttretter, og er et must for den som vil lage et fristende og lekkert tilbehør til sommerens pølser.
 
-[Link to recipe](https://www.matprat.no/oppskrifter/gjester/syltet-rodlok/) | [Se full oppskrift](/recipes/syltet-rodlok/)
+[Link to recipe](https://www.matprat.no/oppskrifter/gjester/syltet-rodlok/)
+
+[Se full oppskrift](/recipes/syltet-rodlok/)

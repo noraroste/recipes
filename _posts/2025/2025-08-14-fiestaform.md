@@ -10,4 +10,6 @@ recipe_slug: fiestaform
 ---
 ## Fiesta form 
 
-[Link to recipe](http://vegetarentusiast.no/fiestaform/?utm_source=Vegetarentusiaster&utm_campaign=0fad830701-EMAIL_CAMPAIGN_2023_01_30_09_31_COPY_01&utm_medium=email&utm_term=0_-0bccbf1f60-[LIST_EMAIL_ID]&mc_cid=0fad830701&mc_eid=ba0f254d92) | [Se full oppskrift](/recipes/fiestaform/)
+[Link to recipe](http://vegetarentusiast.no/fiestaform/?utm_source=Vegetarentusiaster&utm_campaign=0fad830701-EMAIL_CAMPAIGN_2023_01_30_09_31_COPY_01&utm_medium=email&utm_term=0_-0bccbf1f60-[LIST_EMAIL_ID]&mc_cid=0fad830701&mc_eid=ba0f254d92)
+
+[Se full oppskrift](/recipes/fiestaform/)

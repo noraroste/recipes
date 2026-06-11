@@ -13,6 +13,8 @@ recipe_slug: gronnsakslasagne
 
 En digg vegetarlasagne
 
-[Link to recipe](https://detgladekjokken.no/oppskrift/gronnsakslasagne/#wpzoom-premium-recipe-card) | [Se full oppskrift](/recipes/gronnsakslasagne/)
+[Link to recipe](https://detgladekjokken.no/oppskrift/gronnsakslasagne/#wpzoom-premium-recipe-card)
+
+[Se full oppskrift](/recipes/gronnsakslasagne/)
 
   

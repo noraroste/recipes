@@ -13,6 +13,8 @@ recipe_slug: lindastuhaug-saftig-enkelt-surdeigsbrod-med-havre-og-spelt
 
 Dette her er definitivt mitt favoritt surdeigsbrød! No har eg holdt på med surdeigsbaking i snart eit år, og dette er den oppskrifta eg lager oftast. Her trenger du verken å elte eller kna, du rører berre sammen ingrediensane, har deiga i to brødformer og steiker etter en del timer på kjøkkenbenken. Superenkel oppskrift som …
 
-[Link to recipe](https://www.lindastuhaug.no/saftig-enkelt-surdeigsbrod-med-havre-og-spelt) | [Se full oppskrift](/recipes/lindastuhaug-saftig-enkelt-surdeigsbrod-med-havre-og-spelt/)
+[Link to recipe](https://www.lindastuhaug.no/saftig-enkelt-surdeigsbrod-med-havre-og-spelt)
+
+[Se full oppskrift](/recipes/lindastuhaug-saftig-enkelt-surdeigsbrod-med-havre-og-spelt/)
 
   

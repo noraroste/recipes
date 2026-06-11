@@ -13,6 +13,8 @@ recipe_slug: ovnsbakt-torsk-med-spinat-og-paprika-vita-hjertego
 
 
 
-[Link to recipe](https://mills.no/vita-hjertego/oppskrift/ovnsbakt-torsk-med-spinat) | [Se full oppskrift](/recipes/ovnsbakt-torsk-med-spinat-og-paprika-vita-hjertego/)
+[Link to recipe](https://mills.no/vita-hjertego/oppskrift/ovnsbakt-torsk-med-spinat)
+
+[Se full oppskrift](/recipes/ovnsbakt-torsk-med-spinat-og-paprika-vita-hjertego/)
 
   

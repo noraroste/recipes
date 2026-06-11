@@ -13,6 +13,8 @@ recipe_slug: creamy-green-leek-pea-pasta-pick-up-limes
 
   This creamy and delicious green pasta doesn't take much effort to whip together. It makes a pretty big batch too, so it can be enjoyed with the whole family, or pack up any leftovers for a tasty next-day lunch or dinner.
 
-  [Link to recipe](https://www.pickuplimes.com/recipe/creamy-green-leek-pea-pasta-52) | [Se full oppskrift](/recipes/creamy-green-leek-pea-pasta-pick-up-limes/)
+  [Link to recipe](https://www.pickuplimes.com/recipe/creamy-green-leek-pea-pasta-52)
+
+[Se full oppskrift](/recipes/creamy-green-leek-pea-pasta-pick-up-limes/)
 
   

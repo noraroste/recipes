@@ -13,6 +13,8 @@ recipe_slug: pasta-med-chorizo-og-soltorkede-tomater-det-glade-kjokken
 
 Her kommer et tips om en lettvint og deilig pastarett - pasta med chorizo og soltørkede tomater. Middagen som står på bordet på cirka 20 minutter, og som bare skal nytes.
 
-[Link to recipe](https://detgladekjokken.no/oppskrift/pasta-med-chorizo-og-soltorkede-tomater/) | [Se full oppskrift](/recipes/pasta-med-chorizo-og-soltorkede-tomater-det-glade-kjokken/)
+[Link to recipe](https://detgladekjokken.no/oppskrift/pasta-med-chorizo-og-soltorkede-tomater/)
+
+[Se full oppskrift](/recipes/pasta-med-chorizo-og-soltorkede-tomater-det-glade-kjokken/)
 
 

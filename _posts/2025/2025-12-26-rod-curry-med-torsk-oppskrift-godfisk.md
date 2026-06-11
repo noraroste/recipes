@@ -13,6 +13,8 @@ recipe_slug: rod-curry-med-torsk-oppskrift-godfisk
 
 Rød curry med torsk er en enkel og god middagsrett som alle vil like. Sei er også kjempegodt i denne oppskriften. Kjapt å lage og digg!
 
-[Link to recipe](https://www.godfisk.no/oppskrifter/torsk/torskepanne/) | [Se full oppskrift](/recipes/rod-curry-med-torsk-oppskrift-godfisk/)
+[Link to recipe](https://www.godfisk.no/oppskrifter/torsk/torskepanne/)
+
+[Se full oppskrift](/recipes/rod-curry-med-torsk-oppskrift-godfisk/)
 
   

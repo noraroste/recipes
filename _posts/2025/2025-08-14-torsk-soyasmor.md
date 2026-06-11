@@ -10,4 +10,6 @@ recipe_slug: torsk-soyasmor
 ---
 ## Skrei med soyasmørsaus og potetmos
 
-[Link to recipe](https://www.detsoteliv.no/oppskrift/skrei-med-soyasmorsaus-og-potetmos) | [Se full oppskrift](/recipes/torsk-soyasmor/)
+[Link to recipe](https://www.detsoteliv.no/oppskrift/skrei-med-soyasmorsaus-og-potetmos)
+
+[Se full oppskrift](/recipes/torsk-soyasmor/)

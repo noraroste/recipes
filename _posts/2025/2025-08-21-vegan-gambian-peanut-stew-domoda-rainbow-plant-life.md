@@ -13,5 +13,7 @@ recipe_slug: vegan-gambian-peanut-stew-domoda-rainbow-plant-life
 
 This Gambian Peanut Stew is a vegan spin on West African peanut stews and makes for a flavor-packed hearty yet healthy plant-based dinner!
 
-[Link to recipe](https://rainbowplantlife.com/vegan-west-african-peanut-stew/) | [Se full oppskrift](/recipes/vegan-gambian-peanut-stew-domoda-rainbow-plant-life/)
+[Link to recipe](https://rainbowplantlife.com/vegan-west-african-peanut-stew/)
+
+[Se full oppskrift](/recipes/vegan-gambian-peanut-stew-domoda-rainbow-plant-life/)
 

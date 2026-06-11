@@ -13,5 +13,7 @@ recipe_slug: burrito-nourish-bowl-with-creamy-guacamole-pick-up-limes
 
 Burritos in any form are delicious: wrap, bowl or otherwise. This nourish bowl is hearty, filling, nutritious, pretty to look at, and an explosion of flavours.
 
-[Link to recipe](https://www.pickuplimes.com/recipe/burrito-nourish-bowl-with-creamy-guacamole-223) | [Se full oppskrift](/recipes/burrito-nourish-bowl-with-creamy-guacamole-pick-up-limes/)
+[Link to recipe](https://www.pickuplimes.com/recipe/burrito-nourish-bowl-with-creamy-guacamole-223)
+
+[Se full oppskrift](/recipes/burrito-nourish-bowl-with-creamy-guacamole-pick-up-limes/)
 

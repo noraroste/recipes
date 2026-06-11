@@ -13,6 +13,8 @@ recipe_slug: pasta-with-tomatoes-capers-olives-and-breadcrumbs-recipe
 
   Bread crumbs, crisped in olive oil with garlic, make a flavorful addition to just about any pasta Make your own bread crumbs if you’ve got bread that’s drying out, and keep them in the freezer.
 
-  [Link to recipe](https://cooking.nytimes.com/recipes/1013717-pasta-with-tomatoes-capers-olives-and-breadcrumbs) | [Se full oppskrift](/recipes/pasta-with-tomatoes-capers-olives-and-breadcrumbs-recipe/)
+  [Link to recipe](https://cooking.nytimes.com/recipes/1013717-pasta-with-tomatoes-capers-olives-and-breadcrumbs)
+
+[Se full oppskrift](/recipes/pasta-with-tomatoes-capers-olives-and-breadcrumbs-recipe/)
 
   

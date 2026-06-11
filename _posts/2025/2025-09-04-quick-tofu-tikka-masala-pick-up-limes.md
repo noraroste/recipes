@@ -13,6 +13,8 @@ recipe_slug: quick-tofu-tikka-masala-pick-up-limes
 
 This dish was inspired by the famous Chicken Tikka masala recipe, that is often served in Indian restaurants across Europe and North America. We wanted to make an easy and quick vegan alternative, for everyone to enjoy at home. It takes very little time to prepare it, and the taste is delicious - slightly spicy, creamy and perfect for a quick weekday dinner.
 
-[Link to recipe](https://www.pickuplimes.com/recipe/quick-tofu-tikka-masala-1097) | [Se full oppskrift](/recipes/quick-tofu-tikka-masala-pick-up-limes/)
+[Link to recipe](https://www.pickuplimes.com/recipe/quick-tofu-tikka-masala-1097)
+
+[Se full oppskrift](/recipes/quick-tofu-tikka-masala-pick-up-limes/)
 
 

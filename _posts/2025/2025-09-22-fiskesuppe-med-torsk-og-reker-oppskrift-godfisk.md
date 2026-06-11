@@ -13,6 +13,8 @@ recipe_slug: fiskesuppe-med-torsk-og-reker-oppskrift-godfisk
 
 Denne deilige fiskesuppen er lett å lage til mange, og passer godt hvis du har invitert venner eller familie til middag. Det er en sikker vinner av en oppskrift med god smak.  
 
-[Link to recipe](https://www.godfisk.no/oppskrifter/torsk/fiskesuppe-med-torsk-og-reker/) | [Se full oppskrift](/recipes/fiskesuppe-med-torsk-og-reker-oppskrift-godfisk/)
+[Link to recipe](https://www.godfisk.no/oppskrifter/torsk/fiskesuppe-med-torsk-og-reker/)
+
+[Se full oppskrift](/recipes/fiskesuppe-med-torsk-og-reker-oppskrift-godfisk/)
 
   

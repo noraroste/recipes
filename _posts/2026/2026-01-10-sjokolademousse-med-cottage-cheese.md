@@ -13,5 +13,7 @@ recipe_slug: sjokolademousse-med-cottage-cheese
 
 Lag din egne sunne sjokolademousse med vår oppskrift på sjokolademousse med cottage cheese! Den er både proteinrik og fettfattig, og lages på et blunk!
 
-[Link to recipe](https://www.coop.no/oppskrifter/dessert-og-sott/sjokolademousse-med-cottage-cheese) | [Se full oppskrift](/recipes/sjokolademousse-med-cottage-cheese/)
+[Link to recipe](https://www.coop.no/oppskrifter/dessert-og-sott/sjokolademousse-med-cottage-cheese)
+
+[Se full oppskrift](/recipes/sjokolademousse-med-cottage-cheese/)
 

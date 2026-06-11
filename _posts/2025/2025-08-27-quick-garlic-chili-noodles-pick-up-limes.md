@@ -13,5 +13,7 @@ recipe_slug: quick-garlic-chili-noodles-pick-up-limes
 
 This is a quick dish that you can prepare on busy nights when you just don't really feel like cooking but want something homemade that's equally as quick and delicious as takeout. The noodles are packed with flavour and heat, and the broccolini gives the dish a satisfying crunch.
 
-[Link to recipe](https://www.pickuplimes.com/recipe/quick-garlic-chili-noodles-848) | [Se full oppskrift](/recipes/quick-garlic-chili-noodles-pick-up-limes/)
+[Link to recipe](https://www.pickuplimes.com/recipe/quick-garlic-chili-noodles-848)
+
+[Se full oppskrift](/recipes/quick-garlic-chili-noodles-pick-up-limes/)
 

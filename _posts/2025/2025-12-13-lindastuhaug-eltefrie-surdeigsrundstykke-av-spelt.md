@@ -13,6 +13,8 @@ recipe_slug: lindastuhaug-eltefrie-surdeigsrundstykke-av-spelt
 
 Heisann! Har du surdeigsstarter i hus? Då kan eg i tilfelle anbefale deg denne oppskrifta på surdeigsrundstykker! Dei er skikkelig saftige, luftige og gode, ikkje minst er dei superenkle å lage. Du rører berre sammen ingrediensane, lar deiga stå i +/- 12 timer, former til rundstykker og deretter steiker 🙂 Du trenger, 9 store stk …
 
-[Link to recipe](https://www.lindastuhaug.no/eltefrie-surdeigsrundstykke-av-spelt) | [Se full oppskrift](/recipes/lindastuhaug-eltefrie-surdeigsrundstykke-av-spelt/)
+[Link to recipe](https://www.lindastuhaug.no/eltefrie-surdeigsrundstykke-av-spelt)
+
+[Se full oppskrift](/recipes/lindastuhaug-eltefrie-surdeigsrundstykke-av-spelt/)
 
   

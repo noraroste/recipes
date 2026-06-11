@@ -13,6 +13,8 @@ recipe_slug: spro-pitadrom-en-populaer-superrett-fra-en-skikkelig-digg-kokebok-1
 
 
 
-[Link to recipe](https://vegetarentusiast.no/spropitadrom/) | [Se full oppskrift](/recipes/spro-pitadrom-en-populaer-superrett-fra-en-skikkelig-digg-kokebok-1-vegetarentusiastno/)
+[Link to recipe](https://vegetarentusiast.no/spropitadrom/)
+
+[Se full oppskrift](/recipes/spro-pitadrom-en-populaer-superrett-fra-en-skikkelig-digg-kokebok-1-vegetarentusiastno/)
 
 

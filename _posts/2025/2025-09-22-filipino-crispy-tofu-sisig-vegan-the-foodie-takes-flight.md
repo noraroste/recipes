@@ -13,6 +13,8 @@ recipe_slug: filipino-crispy-tofu-sisig-vegan-the-foodie-takes-flight
 
 Crispy Tofu Sisig cooked with onions, garlic, peppers, and chiles in a sizzling plate. Hearty vegan take on the Filipino Kapampangan classic!
 
-[Link to recipe](https://thefoodietakesflight.com/crispy-tofu-sisig/) | [Se full oppskrift](/recipes/filipino-crispy-tofu-sisig-vegan-the-foodie-takes-flight/)
+[Link to recipe](https://thefoodietakesflight.com/crispy-tofu-sisig/)
+
+[Se full oppskrift](/recipes/filipino-crispy-tofu-sisig-vegan-the-foodie-takes-flight/)
 
   

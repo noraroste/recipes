@@ -13,6 +13,8 @@ recipe_slug: vegan-okonomiyaki-pick-up-limes
 
 Okonomiyaki (お好み焼き) is a Japanese savoury pancake. Variations of this dish can be found throughout Japan, but the base is usually a wheat batter, which coats fillings like cabbage, seafood, meat, grated yam, or even noodles. We were inspired to make a vegan version which uses king trumpet mushrooms for a "meaty" texture and a kombu-infused broth for a taste of the sea.
 
-[Link to recipe](https://www.pickuplimes.com/recipe/vegan-okonomiyaki-1176) | [Se full oppskrift](/recipes/vegan-okonomiyaki-pick-up-limes/)
+[Link to recipe](https://www.pickuplimes.com/recipe/vegan-okonomiyaki-1176)
+
+[Se full oppskrift](/recipes/vegan-okonomiyaki-pick-up-limes/)
 
 

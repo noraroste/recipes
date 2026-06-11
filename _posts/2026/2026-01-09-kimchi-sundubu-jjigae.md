@@ -15,5 +15,7 @@ It's about time for some sizzling, comforting stew, isn't it? How about sundubu-
 
 > **Note:** The original recipe includes pork belly, but you can easily make a vegetarian version by omitting the pork and using vegetable stock instead of anchovy stock. Mushrooms make an excellent substitute for a savory, umami-rich flavor.
 
-[Link to recipe](https://www.maangchi.com/recipe/sundubu-jjigae) | [Se full oppskrift](/recipes/kimchi-sundubu-jjigae/)
+[Link to recipe](https://www.maangchi.com/recipe/sundubu-jjigae)
+
+[Se full oppskrift](/recipes/kimchi-sundubu-jjigae/)
 

@@ -188,13 +188,28 @@ function renderTagChips(suggested = []) {
 async function suggestTags(recipeUrl, allTags) {
   const token = sessionStorage.getItem('github_token');
   if (!token || !recipeUrl || allTags.length === 0) return [];
+
+  const prompt = `You are helping tag recipes on a personal recipe collection site.
+Recipe URL: ${recipeUrl}
+Available tags: ${allTags.join(', ')}
+Pick 3-5 tags from the available list that best describe this recipe. Only use tags from the list. Return ONLY a JSON array of strings, nothing else. Example: ["quick", "fish", "comfort"]`;
+
   try {
-    const params = new URLSearchParams({ url: recipeUrl, tags: allTags.join(',') });
-    const res = await fetch(`${WORKER_URL}/suggest-tags?${params}`, {
-      headers: { Authorization: `Bearer ${token}` },
+    const res = await fetch('https://models.inference.ai.azure.com/chat/completions', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'gpt-4o-mini',
+        messages: [{ role: 'user', content: prompt }],
+        max_tokens: 100,
+      }),
     });
     const data = await res.json();
-    return data.suggested || [];
+    const content = data.choices?.[0]?.message?.content?.trim() || '[]';
+    return JSON.parse(content);
   } catch {
     return [];
   }

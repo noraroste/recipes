@@ -1,5 +1,5 @@
 ---
-title: Fiskesuppe med torsk og reker - enkel oppskrift - Godfisk
+title: Fiskesuppe med torsk og reker
 source_url: https://www.godfisk.no/oppskrifter/torsk/fiskesuppe-med-torsk-og-reker/
 status: auto
 ingredients:

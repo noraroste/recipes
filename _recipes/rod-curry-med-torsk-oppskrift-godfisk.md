@@ -1,5 +1,5 @@
 ---
-title: Rod curry med torsk  Oppskrift - Godfisk
+title: Rød curry med torsk
 source_url: https://www.godfisk.no/oppskrifter/torsk/torskepanne/
 status: auto
 ingredients:

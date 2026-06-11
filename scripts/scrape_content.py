@@ -73,7 +73,8 @@ def scrape_recipe_jsonld(soup, debug=False):
       recipe = next((item for item in data if item.get('@type') == 'Recipe'), None)
 
     if recipe:
-      ingredients = recipe.get('recipeIngredient') or []
+      raw_ingredients = recipe.get('recipeIngredient') or []
+      ingredients = [raw_ingredients] if isinstance(raw_ingredients, str) else raw_ingredients
       raw_instructions = recipe.get('recipeInstructions') or []
       instructions = [
         item['text'] if isinstance(item, dict) else item

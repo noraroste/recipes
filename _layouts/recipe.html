@@ -1,0 +1,23 @@
+---
+layout: page
+---
+<h2>Ingredienser</h2>
+<ul>
+  {% for item in page.ingredients %}
+  <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+
+<h2>Fremgangsmåte</h2>
+<ol>
+  {% for step in page.instructions %}
+  <li>{{ step }}</li>
+  {% endfor %}
+</ol>
+
+{% if page.notes and page.notes != "" %}
+<h2>Notater</h2>
+<p>{{ page.notes }}</p>
+{% endif %}
+
+<p><a href="{{ page.source_url }}" target="_blank" rel="noopener">Se originaloppskrift</a></p>

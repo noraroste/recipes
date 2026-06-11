@@ -1,6 +1,8 @@
 ---
 layout: page
 ---
+{% if page.servings %}<p><strong>Porsjoner:</strong> {{ page.servings }}</p>{% endif %}
+
 <h2>Ingredienser</h2>
 <ul>
   {% for item in page.ingredients %}

@@ -1,0 +1,40 @@
+---
+title: Soppgryte - fra En skikkelig digg kokebok
+source_url: https://vegetarentusiast.no/soppgryte-fra-en-skikkelig-digg-kokebok/
+status: auto
+ingredients:
+  - "4 ss stekeolje (f.eks. rapsolje)"
+  - "1  gul løk (finhakket)"
+  - "4 fedd hvitløk (finhakket)"
+  - "650 g valgfri sopp (i biter)"
+  - "2 stenger stangselleri (grovhakket)"
+  - "4  gulrøtter (i ca 1 cm store skiver)"
+  - "1 ss tomatpuré"
+  - "1  grønnsakbuljongterning"
+  - "2,5 dl rødvin"
+  - "1 ts tørket rosmarin"
+  - "1–2 ts tørket timian"
+  - "3  laurbærblad"
+  - "1 ss balsamicoeddik"
+  - "2 ts liquid smoke (valgfritt)"
+  - "½ ts salt"
+  - "litt pepper"
+  - "4–6 ss maisstivelse"
+  - "2-4 never grønnkål (hakket)"
+  - "pyntes med bladpersille eller andre urter"
+  - "tyttebærsyltetøy"
+  - "gratinerte poteter eller sellerirotmos"
+instructions:
+  - "Gjør klar alle ingrediensene. Kutt soppen i mellomstore biter."
+  - "I en stor kjele: Varm 2 ss olje og stek soppen til den er brun."
+  - "I en annen stor kjele: Stek løken på medium varme i 2 ss olje til&nbsp;den er blank."
+  - "Tilsett deretter selleri og gulrøtter i løkblandingen og stek videre i&nbsp;om lag 5 minutter. Bland inn soppen når den er ferdig brunet. (Hvis det blir tørt i pannen mens du steker, tilsetter du 1 dl vann.)"
+  - "Ha så i tomatpuré, buljongterning, rødvin, rosmarin, timian, laurbærblad&nbsp;og balsamicoeddik. (Og Liquid smoke om du har det) La koke i om lag 30 minutter på medium&nbsp;varme til gulrøttene ikke er harde lenger. (Men pass på at de ikke&nbsp;blir for myke, tiden er avhengig av størrelsen på bitene.)"
+  - "Smak til med salt og pepper."
+  - "Bland 4 ss maisstivelse med 4 ss kaldt vann i en skål, hell så i gryten.&nbsp;La koke i 5 minutter, da vil gryten tykne. Dersom du fremdeles har&nbsp;en litt tynn suppe, kan du tilsette 2 ss maisstivelse utrørt i 2 ss vann,&nbsp;og la koke inn.&nbsp;"
+  - "Når tykkelsen er som du vil ha den, kan du tilsette grønnkål og la&nbsp;den koke inn."
+  - "Ta ut laurbærbladene."
+  - "Smak til med salt og pepper og pynt med bladpersille, eller annen&nbsp;urt som for eksempel timian eller rosmarin."
+  - "Server med ønsket tilbehør. Min favoritt er sellerirotmos&nbsp;og tyttebærsyltetøy."
+notes: ""
+---

@@ -150,6 +150,43 @@ function setStatus(msg) {
   document.getElementById('status-msg').textContent = msg;
 }
 
+function getSelectedTags() {
+  return document.getElementById('tags').value
+    .split(',')
+    .map(t => t.trim())
+    .filter(t => t.length > 0);
+}
+
+function setSelectedTags(tags) {
+  document.getElementById('tags').value = tags.join(', ');
+}
+
+function toggleTag(tag) {
+  const current = getSelectedTags();
+  const idx = current.indexOf(tag);
+  if (idx >= 0) {
+    current.splice(idx, 1);
+  } else {
+    current.push(tag);
+  }
+  setSelectedTags(current);
+  renderTagChips();
+}
+
+function renderTagChips() {
+  const selected = getSelectedTags();
+  document.querySelectorAll('#tag-chips .tag-chip').forEach(chip => {
+    const tag = chip.dataset.tag;
+    if (selected.includes(tag)) {
+      chip.classList.add('btn-primary');
+      chip.classList.remove('btn-outline-secondary');
+    } else {
+      chip.classList.remove('btn-primary');
+      chip.classList.add('btn-outline-secondary');
+    }
+  });
+}
+
 async function loadCategories() {
   const token = sessionStorage.getItem('github_token');
   const select = document.getElementById('category');
@@ -164,13 +201,16 @@ async function loadCategories() {
     const postFiles = tree.tree.filter(f => f.path.startsWith('_posts/') && f.path.endsWith('.md'));
 
     const categories = new Set();
+    const tags = new Set();
     await Promise.all(postFiles.map(async file => {
       const r = await fetch(
         `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main/${file.path}`
       );
       const text = await r.text();
-      const match = text.match(/^categories:\s*\[([^\]]+)\]/m);
-      if (match) match[1].split(',').forEach(c => categories.add(c.trim()));
+      const catMatch = text.match(/^categories:\s*\[([^\]]+)\]/m);
+      if (catMatch) catMatch[1].split(',').forEach(c => categories.add(c.trim()));
+      const tagMatch = text.match(/^tags:\s*\[([^\]]+)\]/m);
+      if (tagMatch) tagMatch[1].split(',').forEach(t => { const v = t.trim(); if (v) tags.add(v); });
     }));
 
     select.innerHTML = '<option value="">-- Select category --</option>';
@@ -180,6 +220,20 @@ async function loadCategories() {
       opt.textContent = cat;
       select.appendChild(opt);
     });
+
+    const chipsContainer = document.getElementById('tag-chips');
+    chipsContainer.innerHTML = '';
+    [...tags].sort().forEach(tag => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'tag-chip btn btn-sm btn-outline-secondary';
+      btn.dataset.tag = tag;
+      btn.textContent = tag;
+      btn.addEventListener('click', () => toggleTag(tag));
+      chipsContainer.appendChild(btn);
+    });
+    document.getElementById('tag-suggestions').style.display = '';
+    document.getElementById('tags').addEventListener('input', renderTagChips);
   } catch {
     select.innerHTML = '<option value="">-- Could not load categories --</option>';
   }

@@ -30,6 +30,10 @@ title: Add Recipe
       <div class="mb-3">
         <label for="tags" class="form-label fw-bold">Tags <small class="text-muted fw-normal">(comma separated, e.g. quick, easy, vegetarian)</small></label>
         <input type="text" id="tags" class="form-control" placeholder="quick, easy, vegetarian" />
+        <div id="tag-suggestions" class="mt-2" style="display:none">
+          <small class="text-muted">Existing tags:</small>
+          <div id="tag-chips" class="d-flex flex-wrap gap-1 mt-1"></div>
+        </div>
       </div>
 
       <button type="submit" id="submit-btn" class="btn btn-outline-primary">Add recipe</button>

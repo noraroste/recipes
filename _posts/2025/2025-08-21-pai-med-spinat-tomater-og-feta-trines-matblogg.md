@@ -6,12 +6,13 @@ tags: [comfort, egg]
 toc: false
 image:
   path: https://trinesmatblogg.no/wp-content/uploads/2018/05/IMG_9233.jpg
+recipe_slug: pai-med-spinat-tomater-og-feta-trines-matblogg
 ---
 
 ## PAI MED SPINAT TOMATER OG FETA  TRINES MATBLOGG
 
   Lag paideigen ved å smuldre sammen hvetemel og smør, og tilsett vann til du får en jevn konsistens. Bruk gjerne kjøkkenmaskin, men ikke kjør deigen mer enn det…
 
-  [Link to recipe](https://trinesmatblogg.no/recipe/pai-med-spinat-tomater-og-feta/)
+  [Link to recipe](https://trinesmatblogg.no/recipe/pai-med-spinat-tomater-og-feta/) | [Se full oppskrift](/recipes/pai-med-spinat-tomater-og-feta-trines-matblogg/)
 
   

@@ -6,12 +6,13 @@ tags: [non-knead easy]
 toc: false
 image:
   path: https://trinesmatblogg.no/wp-content/uploads/2011/06/P62040841.jpg
+recipe_slug: eltefri-focaccia-trines-matblogg
 ---
 
 ## Eltefri focaccia  TRINES MATBLOGG
 
 Den eltefrie metoden er nå prøvd ut på foccacia, med stort hell! Enklere kan det ikke bli å bake brød! Godt brød! Jeg bakte dette brødet på hytta, og da er det…
 
-[Link to recipe](https://trinesmatblogg.no/recipe/eltefri-foccacia/)
+[Link to recipe](https://trinesmatblogg.no/recipe/eltefri-foccacia/) | [Se full oppskrift](/recipes/eltefri-focaccia-trines-matblogg/)
 
   

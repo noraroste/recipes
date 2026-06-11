@@ -6,7 +6,8 @@ tags: [fish, traditional]
 toc: false
 image:
   path: https://www.detsoteliv.no/sites/default/files/fields/images/main/2T3A3237.jpg
+recipe_slug: torsk-soyasmor
 ---
 ## Skrei med soyasmørsaus og potetmos
 
-[Link to recipe](https://www.detsoteliv.no/oppskrift/skrei-med-soyasmorsaus-og-potetmos)
+[Link to recipe](https://www.detsoteliv.no/oppskrift/skrei-med-soyasmorsaus-og-potetmos) | [Se full oppskrift](/recipes/torsk-soyasmor/)

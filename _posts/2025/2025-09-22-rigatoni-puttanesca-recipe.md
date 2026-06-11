@@ -6,8 +6,9 @@ tags: [quick, olives, capers]
 toc: false
 image:
   path: https://s3.amazonaws.com/com.commerceowl.prod/16x9/L/41fe55be-b8d8-4ec5-941f-a5643e2313ba.jpeg
+recipe_slug: rigatoni-puttanesca-recipe
 ---
 
 ## Rigatoni Puttanesca
 
-[Link to recipe](https://lavitapazza.commerceowl.com/recipe/rigatoni-puttanesca)
+[Link to recipe](https://lavitapazza.commerceowl.com/recipe/rigatoni-puttanesca) | [Se full oppskrift](/recipes/rigatoni-puttanesca-recipe/)

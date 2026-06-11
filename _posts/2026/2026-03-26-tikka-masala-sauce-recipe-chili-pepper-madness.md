@@ -6,12 +6,13 @@ tags: [comfort, versatile]
 toc: false
 image:
   path: https://www.chilipeppermadness.com/wp-content/uploads/2024/02/Chicken-Tikka-Masala-Sauce-Recipe1.jpg
+recipe_slug: tikka-masala-sauce-recipe-chili-pepper-madness
 ---
 
 ## Tikka Masala Sauce Recipe - Chili Pepper Madness
 
 This homemade Tikka Masala sauce is creamy and flavorful, perfect for chicken, paneer, or veggies for an easy weeknight meal with bold Indian flavors.
 
-[Link to recipe](https://www.chilipeppermadness.com/recipes/tikka-masala-sauce-recipe/)
+[Link to recipe](https://www.chilipeppermadness.com/recipes/tikka-masala-sauce-recipe/) | [Se full oppskrift](/recipes/tikka-masala-sauce-recipe-chili-pepper-madness/)
 
   

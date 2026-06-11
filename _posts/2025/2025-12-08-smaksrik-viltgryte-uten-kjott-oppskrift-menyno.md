@@ -6,6 +6,7 @@ tags: [comfort, mushroom, tofu]
 toc: false
 image:
   path: https://res.cloudinary.com/norgesgruppen/images/c_scale%2Cdpr_auto%2Cf_auto%2Cq_auto:eco%2Cw_1600/bi3mbxfvi6hc2eacq8nj/vegetar-viltgryte
+recipe_slug: smaksrik-viltgryte-uten-kjott-oppskrift-menyno
 ---
 
 ## Smaksrik viltgryte uten kjott 
@@ -16,6 +17,6 @@ Stekt vegetarkjøttdeig kan erstattes med ovnsstekt røkt tofu, og brunostrester
 
 Kan vurdere sukkerkulør for dypere farge.
 
-[Link to recipe](https://meny.no/oppskrifter/vegetar/vegetar-viltgryte)
+[Link to recipe](https://meny.no/oppskrifter/vegetar/vegetar-viltgryte) | [Se full oppskrift](/recipes/smaksrik-viltgryte-uten-kjott-oppskrift-menyno/)
 
   

@@ -6,6 +6,7 @@ tags: [spicy, tofu, comfort, stew, kimchi, easy]
 toc: false
 image:
   path: https://www.maangchi.com/wp-content/uploads/2015/01/sundubu.jpg
+recipe_slug: kimchi-sundubu-jjigae
 ---
 
 ## Kimchi Sundubu-jjigae (Spicy Soft Tofu Stew)
@@ -14,5 +15,5 @@ It's about time for some sizzling, comforting stew, isn't it? How about sundubu-
 
 > **Note:** The original recipe includes pork belly, but you can easily make a vegetarian version by omitting the pork and using vegetable stock instead of anchovy stock. Mushrooms make an excellent substitute for a savory, umami-rich flavor.
 
-[Link to recipe](https://www.maangchi.com/recipe/sundubu-jjigae)
+[Link to recipe](https://www.maangchi.com/recipe/sundubu-jjigae) | [Se full oppskrift](/recipes/kimchi-sundubu-jjigae/)
 

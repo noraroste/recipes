@@ -6,10 +6,11 @@ tags: [taco, texmex, summer, fresh]
 toc: false
 image:
   path: /images/beandillas.jpeg
+recipe_slug: beandillas
 ---
 ## Bønnedillas
 
-Oppskrift av Emilie Nereng [Link to recipe](https://www.instagram.com/emilienutrition/p/BzOhfvKpUuE/)
+Oppskrift av Emilie Nereng [Link to recipe](https://www.instagram.com/emilienutrition/p/BzOhfvKpUuE/) | [Se full oppskrift](/recipes/beandillas/)
 
 ![Bønnedillas](/images/beandillas.jpeg)
 

@@ -6,12 +6,13 @@ tags: [tandoori, sweet-potato]
 toc: false
 image:
   path: https://rainbowplantlife.com/wp-content/uploads/2020/11/1_indiansweetpotatoes2281of129-819x1024.jpg
+recipe_slug: tandoori-chickpea-stuffed-sweet-potatoes-rainbow-plant-life
 ---
 
 ## Tandoori Chickpea Stuffed Sweet Potatoes - Rainbow Plant Life
 
 These Tandoori Chickpea Stuffed Sweet Potatoes bring all those spicy, aromatic Indian flavors you love into an easy, approachable weeknight vegan dinner. Also includes a vegan raita recipe!
 
-[Link to recipe](https://rainbowplantlife.com/tandoori-chickpea-stuffed-sweet-potatoes/)
+[Link to recipe](https://rainbowplantlife.com/tandoori-chickpea-stuffed-sweet-potatoes/) | [Se full oppskrift](/recipes/tandoori-chickpea-stuffed-sweet-potatoes-rainbow-plant-life/)
 
 

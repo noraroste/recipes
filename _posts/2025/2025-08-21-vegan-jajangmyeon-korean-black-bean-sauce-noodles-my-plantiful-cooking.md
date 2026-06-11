@@ -6,12 +6,13 @@ tags: [noodles, tofu, comfort]
 toc: false
 image:
   path: https://www.myplantifulcooking.com/wp-content/uploads/2022/12/vegan-jajangmyeon-bowl.jpg
+recipe_slug: vegan-jajangmyeon-korean-black-bean-sauce-noodles-my-plantiful-cooking
 ---
 
 ## Vegan Jajangmyeon Korean black bean sauce noodles  My Plantiful Cooking
 
   This Korean-inspired jjajangmyeon will be your next favorite noodle dish! Although delicious, this dish is simple to put together and ready in 30 minutes.
 
-  [Link to recipe](https://www.myplantifulcooking.com/vegan-jajangmyeon-black-bean-noodles/)
+  [Link to recipe](https://www.myplantifulcooking.com/vegan-jajangmyeon-black-bean-noodles/) | [Se full oppskrift](/recipes/vegan-jajangmyeon-korean-black-bean-sauce-noodles-my-plantiful-cooking/)
 
   

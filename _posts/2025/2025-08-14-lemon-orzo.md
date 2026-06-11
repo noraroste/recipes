@@ -6,7 +6,8 @@ tags: [salad, summer]
 toc: false
 image:
   path: https://rainbowplantlife.com/wp-content/uploads/2021/07/lemon-orzo-pasta-salad-on-light-green-5x4-1-of-1.jpg
+recipe_slug: lemon-orzo
 ---
 ## Lemon Orzo Pasta Salad
 
-[Link to recipe](https://rainbowplantlife.com/lemon-orzo-pasta-salad/)
+[Link to recipe](https://rainbowplantlife.com/lemon-orzo-pasta-salad/) | [Se full oppskrift](/recipes/lemon-orzo/)

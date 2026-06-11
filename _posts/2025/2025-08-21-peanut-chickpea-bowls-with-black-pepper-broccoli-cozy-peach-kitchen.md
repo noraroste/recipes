@@ -6,11 +6,12 @@ tags: [comfort, rice, quick, peanutbutter]
 toc: false
 image:
   path: https://cozypeachkitchen.com/wp-content/uploads/2020/06/chickpea-bowls-2-150x150.jpg
+recipe_slug: peanut-chickpea-bowls-with-black-pepper-broccoli-cozy-peach-kitchen
 ---
 
 ## Peanut Chickpea Bowls with Black Pepper Broccoli - Cozy Peach Kitchen
 
 Creamy peanut sauce is combined with chickpeas, black pepper broccoli and rice for a healthy and flavorful meal that takes under 30 minutes to make!
 
-[Link to recipe](https://cozypeachkitchen.com/peanut-sauce-chickpea-and-broccoli-bowls/)
+[Link to recipe](https://cozypeachkitchen.com/peanut-sauce-chickpea-and-broccoli-bowls/) | [Se full oppskrift](/recipes/peanut-chickpea-bowls-with-black-pepper-broccoli-cozy-peach-kitchen/)
 

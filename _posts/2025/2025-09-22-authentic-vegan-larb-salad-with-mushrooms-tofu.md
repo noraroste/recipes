@@ -6,12 +6,13 @@ tags: [fresh, citrus]
 toc: false
 image:
   path: https://maddysavenue.com/wp-content/uploads/2021/03/IMG_8811-1.png
+recipe_slug: authentic-vegan-larb-salad-with-mushrooms-tofu
 ---
 
 ## Authentic Vegan Larb Salad with Mushrooms  Tofu
 
 This authentic recipe for vegan larb with mushrooms, tofu, lime, herbs, chili, and sticky rice is tangy and delicious! A Thai/Lao classic.
 
-[Link to recipe](https://maddysavenue.com/authentic-thai-vegan-larb/)
+[Link to recipe](https://maddysavenue.com/authentic-thai-vegan-larb/) | [Se full oppskrift](/recipes/authentic-vegan-larb-salad-with-mushrooms-tofu/)
 
   

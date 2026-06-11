@@ -6,12 +6,13 @@ tags: [quick, creamy]
 toc: false
 image:
   path: https://img.godt.no/w2000/plain/recipes/a1/a1d5ab6d-dc64-4ec2-9ef7-3ffd35fd4b23
+recipe_slug: sitronpasta-med-ricotta-kjapp-og-god-vegetarmiddag-oppskrift
 ---
 
 ## Sitronpasta med ricotta - Kjapp og god vegetarmiddag  Oppskrift
 
 Sitronpasta med ricotta og erter er rask å lage til hverdags ,og smaker helt nydelig toppet med revet parmesan. Flere vegetaroppskrifter får du på Godt.no.
 
-[Link to recipe](https://www.godt.no/oppskrifter/pasta/10719/sitronpasta)
+[Link to recipe](https://www.godt.no/oppskrifter/pasta/10719/sitronpasta) | [Se full oppskrift](/recipes/sitronpasta-med-ricotta-kjapp-og-god-vegetarmiddag-oppskrift/)
 
 

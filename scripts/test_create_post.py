@@ -8,6 +8,7 @@ spec.loader.exec_module(mod)
 title_to_slug = mod.title_to_slug
 output_path = mod.output_path
 normalize_tags = mod.normalize_tags
+build_image_block = mod.build_image_block
 
 
 def test_lowercase():
@@ -45,3 +46,10 @@ def test_normalize_tags_deduplicates():
 
 def test_normalize_tags_strips_whitespace():
     assert normalize_tags('[  quick ,  easy  ]') == '[quick, easy]'
+
+
+def test_image_block_with_url():
+    assert build_image_block('https://example.com/img.jpg') == 'image:\n  path: https://example.com/img.jpg\n'
+
+def test_image_block_without_url():
+    assert build_image_block(None) == ''

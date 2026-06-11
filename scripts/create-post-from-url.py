@@ -37,6 +37,12 @@ def normalize_tags(tags_str):
   return '[' + ', '.join(seen) + ']'
 
 
+def build_image_block(image_url):
+  if not image_url:
+    return ''
+  return f"image:\n  path: {image_url}\n"
+
+
 def title_to_slug(title):
   slug = clean_title(title)
   slug = slug.lower()
@@ -96,9 +102,7 @@ date: {formatted_date}
 categories: {categories}
 tags: {tags}
 toc: false
-image:
-  path: {image_first}
----
+{build_image_block(image_first)}---
 
 ## {cleaned_title}
 

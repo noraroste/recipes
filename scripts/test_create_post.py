@@ -7,6 +7,7 @@ mod = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(mod)
 title_to_slug = mod.title_to_slug
 output_path = mod.output_path
+normalize_tags = mod.normalize_tags
 
 
 def test_lowercase():
@@ -31,3 +32,16 @@ def test_spaces_become_dashes():
 
 def test_output_path_includes_year_subfolder():
     assert output_path('../_posts/', '2026-03-26') == '../_posts/2026/'
+
+
+def test_normalize_tags_lowercases():
+    assert normalize_tags('[Quick, Easy]') == '[quick, easy]'
+
+def test_normalize_tags_replaces_spaces_with_dashes():
+    assert normalize_tags('[Sweet Potato, comfort]') == '[sweet-potato, comfort]'
+
+def test_normalize_tags_deduplicates():
+    assert normalize_tags('[tofu, tofu, easy]') == '[tofu, easy]'
+
+def test_normalize_tags_strips_whitespace():
+    assert normalize_tags('[  quick ,  easy  ]') == '[quick, easy]'

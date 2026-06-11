@@ -27,6 +27,16 @@ def output_path(base_path, formatted_date):
   return f"{base_path}{year}/"
 
 
+def normalize_tags(tags_str):
+  inner = tags_str.strip().lstrip('[').rstrip(']')
+  seen = []
+  for tag in inner.split(','):
+    normalized = tag.strip().lower().replace(' ', '-')
+    if normalized and normalized not in seen:
+      seen.append(normalized)
+  return '[' + ', '.join(seen) + ']'
+
+
 def title_to_slug(title):
   slug = clean_title(title)
   slug = slug.lower()
@@ -62,7 +72,7 @@ def main():
       lines = file.readlines()
       url = lines[0].strip()
       categories = lines[1].strip()
-      tags = lines[2].strip()
+      tags = normalize_tags(lines[2].strip())
 
   site_title, recipe_description, image_first = scrape_meta_content(url, debug)
 

@@ -76,10 +76,19 @@ def scrape_recipe_jsonld(soup, debug=False):
       raw_ingredients = recipe.get('recipeIngredient') or []
       ingredients = [raw_ingredients] if isinstance(raw_ingredients, str) else raw_ingredients
       raw_instructions = recipe.get('recipeInstructions') or []
-      instructions = [
-        item['text'] if isinstance(item, dict) else item
-        for item in raw_instructions
-      ]
+      instructions = []
+      for item in raw_instructions:
+        if isinstance(item, str):
+          instructions.append(item)
+        elif isinstance(item, dict):
+          if item.get('@type') == 'HowToSection':
+            for step in item.get('itemListElement', []):
+              if isinstance(step, dict):
+                instructions.append(step.get('text', ''))
+              else:
+                instructions.append(step)
+          else:
+            instructions.append(item.get('text', ''))
       if debug:
         print(f"JSON-LD: found {len(ingredients)} ingredients, {len(instructions)} steps")
       return ingredients, instructions

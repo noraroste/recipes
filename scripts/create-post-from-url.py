@@ -45,23 +45,26 @@ def build_image_block(image_url):
 
 def build_recipe_file(slug, title, url, ingredients, instructions):
   if ingredients:
-    ing_yaml = '\n'.join(f'  - "{i}"' for i in ingredients)
-    ins_yaml = '\n'.join(f'  - "{s}"' for s in instructions)
+    ing_md = '\n'.join(f'- {i}' for i in ingredients)
+    ins_md = '\n'.join(f'{n+1}. {s}' for n, s in enumerate(instructions))
     status = "auto"
   else:
-    ing_yaml = '  # - "Legg til ingredienser her"'
-    ins_yaml = '  # - "Legg til fremgangsmåte her"'
+    ing_md = '- Legg til ingredienser her'
+    ins_md = '1. Legg til fremgangsmåte her'
     status = "template"
   return f"""---
 title: {title}
 source_url: {url}
 status: {status}
-ingredients:
-{ing_yaml}
-instructions:
-{ins_yaml}
-notes: ""
 ---
+
+## Ingredienser
+
+{ing_md}
+
+## Fremgangsmåte
+
+{ins_md}
 """
 
 

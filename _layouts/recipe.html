@@ -9,7 +9,7 @@ layout: page
     <h2>Ingredienser</h2>
     <ul>
       {% for item in page.ingredients %}
-      <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+      <li>{{ item }}</li>
       {% endfor %}
     </ul>
 
@@ -33,16 +33,7 @@ layout: page
 
   <div id="recipe-edit-section" style="display:none">
     <div class="mb-3">
-      <label for="edit-ingredients" class="form-label fw-bold">Ingredienser <small class="text-muted fw-normal">(én per linje)</small></label>
-      <textarea id="edit-ingredients" class="form-control" rows="10"></textarea>
-    </div>
-    <div class="mb-3">
-      <label for="edit-instructions" class="form-label fw-bold">Fremgangsmåte <small class="text-muted fw-normal">(ett steg per linje)</small></label>
-      <textarea id="edit-instructions" class="form-control" rows="10"></textarea>
-    </div>
-    <div class="mb-3">
-      <label for="edit-notes" class="form-label fw-bold">Notater</label>
-      <textarea id="edit-notes" class="form-control" rows="3"></textarea>
+      <textarea id="edit-raw" class="form-control" rows="30" style="font-family: monospace; font-size: 0.85rem;"></textarea>
     </div>
     <button id="save-btn" class="btn btn-outline-primary me-2">Lagre</button>
     <button id="cancel-btn" class="btn btn-outline-secondary">Avbryt</button>

@@ -14,67 +14,8 @@ function setEditStatus(msg) {
   document.getElementById('edit-status-msg').textContent = msg;
 }
 
-async function fetchRecipeFile(slug) {
-  const token = RecipeAuth.getToken();
-  const res = await fetch(
-    `https://api.github.com/repos/${RECIPE_REPO_OWNER}/${RECIPE_REPO_NAME}/contents/_recipes/${slug}.md`,
-    { headers: { Authorization: `Bearer ${token}` } }
-  );
-  if (!res.ok) throw new Error(`Could not fetch recipe file (${res.status})`);
-  return res.json();
-}
-
 function decodeBase64(str) {
   return decodeURIComponent(escape(atob(str.replace(/\n/g, ''))));
-}
-
-function parseFrontmatter(content) {
-  const match = content.match(/^---\n([\s\S]*?)\n---/);
-  if (!match) return {};
-  const fm = {};
-  const lines = match[1].split('\n');
-  let currentKey = null;
-  let inList = false;
-  for (const line of lines) {
-    const listItem = line.match(/^\s+- "(.*)"$/);
-    const keyVal = line.match(/^(\w+):\s*(.*)?$/);
-    if (listItem && inList) {
-      fm[currentKey].push(listItem[1]);
-    } else if (keyVal) {
-      currentKey = keyVal[1];
-      const val = keyVal[2]?.trim() ?? '';
-      if (val === '' || val === undefined) {
-        fm[currentKey] = [];
-        inList = true;
-      } else {
-        fm[currentKey] = val;
-        inList = false;
-      }
-    } else {
-      inList = false;
-    }
-  }
-  return fm;
-}
-
-function buildFrontmatter(existing, ingredients, instructions, notes) {
-  const ingSerialized = ingredients.map(i => `  - "${i.replace(/"/g, '\\"')}"`).join('\n');
-  const insSerialized = instructions.map(s => `  - "${s.replace(/"/g, '\\"')}"`).join('\n');
-
-  const servingsLine = existing.servings ? `servings: ${existing.servings}\n` : '';
-  const notesVal = notes.replace(/"/g, '\\"');
-
-  return `---
-title: ${existing.title}
-source_url: ${existing.source_url}
-status: manual
-${servingsLine}ingredients:
-${ingSerialized}
-instructions:
-${insSerialized}
-notes: "${notesVal}"
----
-`;
 }
 
 async function openEditor() {
@@ -83,15 +24,15 @@ async function openEditor() {
   showEditSection(true);
 
   try {
-    const file = await fetchRecipeFile(slug);
-    const content = decodeBase64(file.content);
-    const fm = parseFrontmatter(content);
-
-    document.getElementById('edit-ingredients').value = (fm.ingredients || []).join('\n');
-    document.getElementById('edit-instructions').value = (fm.instructions || []).join('\n');
-    document.getElementById('edit-notes').value = fm.notes?.replace(/^"|"$/g, '') || '';
+    const token = RecipeAuth.getToken();
+    const res = await fetch(
+      `https://api.github.com/repos/${RECIPE_REPO_OWNER}/${RECIPE_REPO_NAME}/contents/_recipes/${slug}.md`,
+      { headers: { Authorization: `Bearer ${token}` } }
+    );
+    if (!res.ok) throw new Error(`Kunne ikke hente fil (${res.status})`);
+    const file = await res.json();
+    document.getElementById('edit-raw').value = decodeBase64(file.content);
     document.getElementById('recipe-edit-section').dataset.sha = file.sha;
-    document.getElementById('recipe-edit-section').dataset.fm = JSON.stringify(fm);
     setEditStatus('');
   } catch (e) {
     setEditStatus(`Feil: ${e.message}`);
@@ -101,18 +42,9 @@ async function openEditor() {
 async function saveRecipe() {
   const slug = getSlug();
   const token = RecipeAuth.getToken();
-  const editSection = document.getElementById('recipe-edit-section');
-  const sha = editSection.dataset.sha;
-  const fm = JSON.parse(editSection.dataset.fm);
-
-  const ingredients = document.getElementById('edit-ingredients').value
-    .split('\n').map(l => l.trim()).filter(l => l.length > 0);
-  const instructions = document.getElementById('edit-instructions').value
-    .split('\n').map(l => l.trim()).filter(l => l.length > 0);
-  const notes = document.getElementById('edit-notes').value.trim();
-
-  const newContent = buildFrontmatter(fm, ingredients, instructions, notes);
-  const encoded = btoa(unescape(encodeURIComponent(newContent)));
+  const sha = document.getElementById('recipe-edit-section').dataset.sha;
+  const content = document.getElementById('edit-raw').value;
+  const encoded = btoa(unescape(encodeURIComponent(content)));
 
   setEditStatus('Lagrer...');
   document.getElementById('save-btn').disabled = true;
@@ -137,10 +69,7 @@ async function saveRecipe() {
 
   if (res.ok) {
     setEditStatus('Lagret!');
-    setTimeout(() => {
-      showEditSection(false);
-      setEditStatus('');
-    }, 1500);
+    setTimeout(() => { showEditSection(false); setEditStatus(''); }, 1500);
   } else {
     setEditStatus(`Feil ved lagring (${res.status}). Prøv igjen.`);
   }

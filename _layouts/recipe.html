@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<div id="recipe-edit-root" data-recipe-slug="{{ page.slug }}">
+<div id="recipe-edit-root" data-recipe-slug="{{ page.name | remove: '.md' }}">
 
   <div id="recipe-view-section">
     {% if page.servings %}<p><strong>Porsjoner:</strong> {{ page.servings }}</p>{% endif %}

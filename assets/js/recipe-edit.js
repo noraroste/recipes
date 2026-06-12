@@ -68,8 +68,8 @@ async function saveRecipe() {
   document.getElementById('save-btn').disabled = false;
 
   if (res.ok) {
-    setEditStatus('Lagret!');
-    setTimeout(() => { showEditSection(false); setEditStatus(''); }, 1500);
+    setEditStatus('Lagret! Endringene vises på siden om 1–2 minutter når siden er ferdig bygget.');
+    setTimeout(() => { showEditSection(false); setEditStatus(''); }, 4000);
   } else {
     setEditStatus(`Feil ved lagring (${res.status}). Prøv igjen.`);
   }

@@ -1,25 +1,55 @@
 ---
 layout: page
 ---
-{% if page.servings %}<p><strong>Porsjoner:</strong> {{ page.servings }}</p>{% endif %}
+<div id="recipe-edit-root" data-recipe-slug="{{ page.slug }}">
 
-<h2>Ingredienser</h2>
-<ul>
-  {% for item in page.ingredients %}
-  <li>{{ item }}</li>
-  {% endfor %}
-</ul>
+  <div id="recipe-view-section">
+    {% if page.servings %}<p><strong>Porsjoner:</strong> {{ page.servings }}</p>{% endif %}
 
-<h2>Fremgangsmåte</h2>
-<ol>
-  {% for step in page.instructions %}
-  <li>{{ step }}</li>
-  {% endfor %}
-</ol>
+    <h2>Ingredienser</h2>
+    <ul>
+      {% for item in page.ingredients %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
 
-{% if page.notes and page.notes != "" %}
-<h2>Notater</h2>
-<p>{{ page.notes }}</p>
-{% endif %}
+    <h2>Fremgangsmåte</h2>
+    <ol>
+      {% for step in page.instructions %}
+      <li>{{ step }}</li>
+      {% endfor %}
+    </ol>
 
-<p><a href="{{ page.source_url }}" target="_blank" rel="noopener">Se originaloppskrift</a></p>
+    {% if page.notes and page.notes != "" %}
+    <h2>Notater</h2>
+    <p>{{ page.notes }}</p>
+    {% endif %}
+
+    <p><a href="{{ page.source_url }}" target="_blank" rel="noopener">Se originaloppskrift</a></p>
+
+    <button id="edit-btn" class="btn btn-outline-secondary btn-sm mt-3" style="display:none">Rediger oppskrift</button>
+    <button id="recipe-login-btn" class="btn btn-outline-primary btn-sm mt-3" style="display:none">Logg inn for å redigere</button>
+  </div>
+
+  <div id="recipe-edit-section" style="display:none">
+    <div class="mb-3">
+      <label for="edit-ingredients" class="form-label fw-bold">Ingredienser <small class="text-muted fw-normal">(én per linje)</small></label>
+      <textarea id="edit-ingredients" class="form-control" rows="10"></textarea>
+    </div>
+    <div class="mb-3">
+      <label for="edit-instructions" class="form-label fw-bold">Fremgangsmåte <small class="text-muted fw-normal">(ett steg per linje)</small></label>
+      <textarea id="edit-instructions" class="form-control" rows="10"></textarea>
+    </div>
+    <div class="mb-3">
+      <label for="edit-notes" class="form-label fw-bold">Notater</label>
+      <textarea id="edit-notes" class="form-control" rows="3"></textarea>
+    </div>
+    <button id="save-btn" class="btn btn-outline-primary me-2">Lagre</button>
+    <button id="cancel-btn" class="btn btn-outline-secondary">Avbryt</button>
+    <p id="edit-status-msg" class="mt-2 fst-italic text-muted"></p>
+  </div>
+
+</div>
+
+<script src="{{ '/assets/js/auth.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/recipe-edit.js' | relative_url }}"></script>

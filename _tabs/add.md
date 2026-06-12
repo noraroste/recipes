@@ -56,4 +56,5 @@ title: Add Recipe
   </div>
 </div>
 
+<script src="{{ '/assets/js/auth.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/add-recipe.js' | relative_url }}"></script>

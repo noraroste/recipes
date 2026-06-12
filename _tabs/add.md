@@ -36,6 +36,20 @@ title: Add Recipe
         </div>
       </div>
 
+      <div id="manual-recipe-section" style="display:none">
+        <div class="alert alert-warning">
+          This site doesn't seem to have structured recipe data. You can paste the recipe manually below so it gets added automatically.
+        </div>
+        <div class="mb-3">
+          <label for="manual-ingredients" class="form-label fw-bold">Ingredients <small class="text-muted fw-normal">(one per line)</small></label>
+          <textarea id="manual-ingredients" class="form-control" rows="6" placeholder="2 cups flour&#10;1 tsp salt&#10;..."></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="manual-instructions" class="form-label fw-bold">Instructions <small class="text-muted fw-normal">(one step per line)</small></label>
+          <textarea id="manual-instructions" class="form-control" rows="6" placeholder="Mix the flour and salt&#10;Add water gradually&#10;..."></textarea>
+        </div>
+      </div>
+
       <button type="submit" id="submit-btn" class="btn btn-outline-primary">Add recipe</button>
       <p id="status-msg" class="mt-3 fst-italic text-muted"></p>
     </form>

@@ -114,7 +114,14 @@ async function submitRecipe(event) {
     return;
   }
 
-  const fileContent = `${url}\n[${category}]\n[${tags}]\n`;
+  const manualIngredients = document.getElementById('manual-ingredients').value.trim();
+  const manualInstructions = document.getElementById('manual-instructions').value.trim();
+  const manualSection = document.getElementById('manual-recipe-section').style.display !== 'none'
+    && (manualIngredients || manualInstructions)
+    ? `\n---ingredients---\n${manualIngredients}\n---instructions---\n${manualInstructions}\n`
+    : '';
+
+  const fileContent = `${url}\n[${category}]\n[${tags}]${manualSection}\n`;
   const fileName = `add-new-posts-here/${Date.now()}.txt`;
   const encoded = btoa(unescape(encodeURIComponent(fileContent)));
 
@@ -215,6 +222,16 @@ Pick 3-5 tags from the available list that best describe this recipe. Only use t
   }
 }
 
+async function checkRecipeJsonLd(recipeUrl) {
+  try {
+    const res = await fetch(`${WORKER_URL}/check-recipe?url=${encodeURIComponent(recipeUrl)}`);
+    const data = await res.json();
+    document.getElementById('manual-recipe-section').style.display = data.hasRecipe ? 'none' : '';
+  } catch {
+    // silently ignore — don't block the form
+  }
+}
+
 async function loadCategories() {
   const token = sessionStorage.getItem('github_token');
   const select = document.getElementById('category');
@@ -264,18 +281,18 @@ async function loadCategories() {
     document.getElementById('tag-suggestions').style.display = '';
     document.getElementById('tags').addEventListener('input', () => renderTagChips());
 
-    const urlInput = document.getElementById('url');
-    urlInput.addEventListener('blur', async () => {
-      const recipeUrl = urlInput.value.trim();
+    document.getElementById('url').addEventListener('blur', async () => {
+      const recipeUrl = document.getElementById('url').value.trim();
       if (!recipeUrl) return;
       document.getElementById('suggest-status').textContent = 'Suggesting tags...';
-      const suggested = await suggestTags(recipeUrl, allTags);
+      const s = await suggestTags(recipeUrl, allTags);
+      if (s.length > 0) {
+        const current = getSelectedTags();
+        const toAdd = s.filter(t => !current.includes(t));
+        setSelectedTags([...current, ...toAdd]);
+        renderTagChips(s);
+      }
       document.getElementById('suggest-status').textContent = '';
-      if (suggested.length === 0) return;
-      const current = getSelectedTags();
-      const toAdd = suggested.filter(t => !current.includes(t));
-      setSelectedTags([...current, ...toAdd]);
-      renderTagChips(suggested);
     });
   } catch {
     select.innerHTML = '<option value="">-- Could not load categories --</option>';
@@ -291,6 +308,11 @@ function init() {
   document.getElementById('logout-btn').addEventListener('click', (e) => { e.preventDefault(); logout(); });
   document.getElementById('recipe-form').addEventListener('submit', submitRecipe);
   document.getElementById('category').addEventListener('change', handleCategoryChange);
+  document.getElementById('url').addEventListener('blur', async () => {
+    const recipeUrl = document.getElementById('url').value.trim();
+    if (!recipeUrl) return;
+    await checkRecipeJsonLd(recipeUrl);
+  });
 
   const savedToken = sessionStorage.getItem('github_token');
   const savedUser = sessionStorage.getItem('github_username');

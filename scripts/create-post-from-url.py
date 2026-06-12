@@ -96,15 +96,30 @@ def main():
   recipes_path = args.recipes_path
   debug = args.debug.lower() == 'true'
 
+  manual_ingredients = None
+  manual_instructions = None
+
   if input_file:
     print("Opening file: " + input_file)
     with open(input_file, 'r', encoding='utf-8') as file:
-      lines = file.readlines()
+      content = file.read()
+      lines = content.splitlines()
       url = lines[0].strip()
       categories = lines[1].strip()
       tags = normalize_tags(lines[2].strip())
 
+      if '---ingredients---' in content:
+        ing_block = content.split('---ingredients---')[1].split('---instructions---')[0].strip()
+        ins_block = content.split('---instructions---')[1].strip()
+        manual_ingredients = [l.strip() for l in ing_block.splitlines() if l.strip()]
+        manual_instructions = [l.strip() for l in ins_block.splitlines() if l.strip()]
+
   site_title, recipe_description, image_first, ingredients, instructions = scrape_meta_content(url, debug)
+
+  if manual_ingredients:
+    ingredients = manual_ingredients
+  if manual_instructions:
+    instructions = manual_instructions
 
   cleaned_title = clean_title(site_title)
   slug = title_to_slug(site_title)

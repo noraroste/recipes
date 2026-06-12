@@ -14,11 +14,11 @@ function getUsername() {
 function login() {
   const state = crypto.randomUUID();
   sessionStorage.setItem('oauth_state', state);
-  sessionStorage.setItem('oauth_return_url', location.href);
   const params = new URLSearchParams({
     client_id: GITHUB_CLIENT_ID,
     scope: 'public_repo',
     state,
+    redirect_uri: location.href.split('?')[0],
   });
   window.location.href = `https://github.com/login/oauth/authorize?${params}`;
 }
@@ -60,13 +60,6 @@ async function handleOAuthCallback() {
   sessionStorage.setItem('github_username', user.login);
 
   window.history.replaceState({}, '', window.location.pathname);
-
-  const returnUrl = sessionStorage.getItem('oauth_return_url');
-  if (returnUrl && returnUrl !== location.href) {
-    sessionStorage.removeItem('oauth_return_url');
-    window.location.href = returnUrl;
-    return null;
-  }
 
   return { token: data.access_token, username: user.login };
 }

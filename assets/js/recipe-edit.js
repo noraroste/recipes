@@ -68,8 +68,12 @@ async function saveRecipe() {
   document.getElementById('save-btn').disabled = false;
 
   if (res.ok) {
-    setEditStatus('Lagret! Endringene vises på siden om 1–2 minutter når siden er ferdig bygget.');
-    setTimeout(() => { showEditSection(false); setEditStatus(''); }, 4000);
+    const rawContent = document.getElementById('edit-raw').value;
+    const bodyMatch = rawContent.match(/^---\n[\s\S]*?\n---\n([\s\S]*)$/);
+    const markdown = bodyMatch ? bodyMatch[1] : rawContent;
+    document.getElementById('recipe-content').innerHTML = marked.parse(markdown);
+    showEditSection(false);
+    setEditStatus('');
   } else {
     setEditStatus(`Feil ved lagring (${res.status}). Prøv igjen.`);
   }

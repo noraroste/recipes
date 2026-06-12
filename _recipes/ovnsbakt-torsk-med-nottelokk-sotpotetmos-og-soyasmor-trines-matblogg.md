@@ -6,21 +6,26 @@ status: auto
 
 ## Ingredienser
 
-- **Torsk med nøttelokk**
+**Torsk med nøttelokk**
+
 - 700-800 g fersk torskefilet, i porsjonsstykker
 - salt og pepper
 - 4 ss pinjekjerner, ristet og hakket
 - 1/2 sitron, skall av + 3 ss sitronsaft
 - 3 ss olivenolje
 - persille, finhakket
-- **Søtpotetmos**
+
+**Søtpotetmos**
+
 - 700 g søtpoteter, skrelt og delt i biter
 - 3 poteter, skrelt og delt i biter
 - 1/2 rød chili
 - sitron, saften (smak til)
 - 1-2 ss smør
 - salt og pepper
-- **Soyasmør**
+
+**Soyasmør**
+
 - 150 g smør
 - 1 sjalottløk, finhakket
 - 1 fedd hvitløk, finhakket

@@ -1,7 +1,3 @@
-const WORKER_URL = 'https://recipes-oauth.recipe-oauth-handler.workers.dev';
-const REPO_OWNER = RecipeAuth.REPO_OWNER;
-const REPO_NAME = RecipeAuth.REPO_NAME;
-
 function loginWithGitHub() {
   RecipeAuth.login();
 }
@@ -73,7 +69,7 @@ async function submitRecipe(event) {
   setStatus('Adding recipe...');
   document.getElementById('submit-btn').disabled = true;
 
-  const res = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${fileName}`, {
+  const res = await fetch(`https://api.github.com/repos/${RecipeAuth.REPO_OWNER}/${RecipeAuth.REPO_NAME}/contents/${fileName}`, {
     method: 'PUT',
     headers: {
       Authorization: `Bearer ${token}`,
@@ -184,7 +180,7 @@ async function loadCategories() {
   try {
     const headers = token ? { Authorization: `Bearer ${token}` } : {};
     const res = await fetch(
-      `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/git/trees/main?recursive=1`,
+      `https://api.github.com/repos/${RecipeAuth.REPO_OWNER}/${RecipeAuth.REPO_NAME}/git/trees/main?recursive=1`,
       { headers }
     );
     const tree = await res.json();
@@ -194,7 +190,7 @@ async function loadCategories() {
     const tags = new Set();
     await Promise.all(postFiles.map(async file => {
       const r = await fetch(
-        `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main/${file.path}`
+        `https://raw.githubusercontent.com/${RecipeAuth.REPO_OWNER}/${RecipeAuth.REPO_NAME}/main/${file.path}`
       );
       const text = await r.text();
       const catMatch = text.match(/^categories:\s*\[([^\]]+)\]/m);
